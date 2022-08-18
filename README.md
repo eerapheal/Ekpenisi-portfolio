@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+![](./images/WhatsApp%20Image%202022-08-18%20at%206.32.03%20AM.jpeg)
 ## Project Name
 Ekpenisi Portfolio.
 
@@ -17,7 +18,7 @@ Vscode.
 
 ## Setup
 Clone this repo with:
-https://github.com/eerapheal/Hello-Microverce.git
+https://github.com/eerapheal/Ekpenisi-portfolio
 
 ## Install
 npm install
