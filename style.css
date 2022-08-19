@@ -436,11 +436,14 @@ body {
   font-size: 22px;
   line-height: 43px;
   color: #fff;
+}
+
+.head-items li {
   padding-top: 12px;
 }
 
 .li-p {
-  padding-top: 24px;
+  padding-top: 30px;
 }
 
 .css-btn:hover {
