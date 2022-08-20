@@ -119,19 +119,20 @@ body {
   width: 327px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
+  font-weight: 700px;
+  font-size: 39px;
   line-height: 52px;
   display: flex;
   align-items: center;
   color: #1c1a19;
+  margin-bottom: 30px;
 }
 
 .second-subtittle {
   width: 327px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -233,7 +234,7 @@ body {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
+  width: 126px;
   height: 48px;
   background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
@@ -391,10 +392,20 @@ body {
   margin-top: 12px;
 }
 
+.line2 {
+  border: 1px solid #313030;
+  margin-bottom: 70px;
+  /* padding: 1px; */
+  height: 1px;
+  width: 325px;
+
+}
+
 .line1 {
   border: 1px solid #fff;
   margin-top: 200px;
 }
+
 
 #padding {
   margin-top: 100px;
