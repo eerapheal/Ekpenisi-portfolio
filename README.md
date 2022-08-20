@@ -30,6 +30,9 @@ Ekpenisi Erue Raphael. GitHub: (https://github.com/eerapheal) Twitter: (https://
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
+## Deployment
+Github
+
 ## Show your support
 Give a ⭐️ if you like this project!
 
