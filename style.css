@@ -9,7 +9,7 @@
 }
 
 body {
-  width: 375px;
+  /* width: 375px; */
 }
 
 #nav-bar {
@@ -517,13 +517,15 @@ body {
   transition-duration: 2s;
 }
 
+/* contact form section */
+
 .intrested {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight: 700px;
 font-size: 32px;
 line-height: 44px;
-/* text-align: center; */
+text-align: unset;
 color: #172b4d;
 text-align: unset;
 }
@@ -533,35 +535,98 @@ text-align: unset;
 height: 48px;
 display: flex;
 align-items: center;
-font-family: 'Inter';
+border: none;
+font-family: 'Inter', sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 15px;
 line-height: 24px;
 color: #979493;
+margin-top: 64px;
+padding: 0 24px;
+background-color: #fbf8f7;
 }
 
 .email-input {
+  margin-top: 30px;
   width: 327px;
   height: 48px;
   display: flex;
 align-items: center;
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 15px;
 line-height: 24px;
 color: #979493;
+border: none;
+padding: 0 24px;
+background-color: #fbf8f7;
 }
 
 .msg-input {
-  font-family: 'Inter';
+  margin-top: 35px;
+  font-family: 'Inter', sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 15px;
 line-height: 24px;
 color: #3c3a39;
 width: 327px;
 height: 114px;
+border: none;
 background-color: #fbf8f7;
+padding: 0 24px;
+}
+
+.form-btn {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.03em;  
+  color: #fff;
+width: 131px;
+height: 48px;
+background: #ff6b00;
+border: none;
+margin: 26px 84px;
+}
+
+.line3 {
+  border: 1px solid #e5e5e5;
+  height: 1px;
+  width: 331px;
+}
+
+.form-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+ background-color: #fff;
+  height: 800px;
+}
+
+.line4 {
+  border: 1px solid #dfe1e6;
+  height: 1px;
+  width: 100% auto;
+}
+
+.newsocial2 {
+  display: flex;
+  justify-content: center;
+}
+
+#social-media2 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
