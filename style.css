@@ -622,6 +622,7 @@ margin: 26px 84px;
 .newsocial2 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #social-media2 {
