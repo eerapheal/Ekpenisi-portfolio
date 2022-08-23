@@ -516,3 +516,52 @@ body {
   background-color: #fff;
   transition-duration: 2s;
 }
+
+.intrested {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* text-align: center; */
+color: #172b4d;
+text-align: unset;
+}
+ 
+.name-input {
+  width: 327px;
+height: 48px;
+display: flex;
+align-items: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #979493;
+}
+
+.email-input {
+  width: 327px;
+  height: 48px;
+  display: flex;
+align-items: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #979493;
+}
+
+.msg-input {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #3c3a39;
+width: 327px;
+height: 114px;
+background-color: #fbf8f7;
+}
