@@ -631,3 +631,9 @@ margin: 26px 84px;
   align-items: center;
   justify-content: center;
 }
+.form-btn:hover {
+  background-color: #fff;
+  border: 1px solid goldenrod;
+  color: #091e42;
+  transition-duration: 3s;
+}
