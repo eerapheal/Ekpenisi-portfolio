@@ -517,9 +517,7 @@ body {
   font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d;
-  text-align: unset
-  text-align: unset;
+  text-align: center;
   color: #172b4d;
   margin-right: 24px;
 }
