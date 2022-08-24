@@ -740,11 +740,16 @@ margin-right: 731px;
   margin-top:53px;
 }
 
+/*  */
+
+.second-sec {
+  padding: 0 141px;
+}
 #my-recnt {
   display: flex;
   gap: 25px;
   align-items: center;
-  padding: 0px 152px 0px;
+  padding: 0px 12px 0px;
 }
 .second-tittle {
   margin-bottom: 0px;
@@ -760,7 +765,7 @@ margin-right: 731px;
   display: flex;
   flex-direction: row;
   height: 0 auto;
-  padding: 120px 141px 0px;
+  padding: 120px 0px 0px;
 }
 
 .img-desk2 {
