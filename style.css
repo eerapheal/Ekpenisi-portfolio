@@ -626,7 +626,7 @@ body {
 
 .form-btn:hover {
   background-color: #fff;
-  border: 1px solid goldenrod;
+  border: 1px solid yellow;
   color: #091e42;
   transition-duration: 3s;
 }
