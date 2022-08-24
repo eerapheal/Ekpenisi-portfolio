@@ -630,3 +630,7 @@ body {
   color: #091e42;
   transition-duration: 3s;
 }
+
+/* desktop version part */
+
+/* @media and all (min-width"1200") */
