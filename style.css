@@ -9,7 +9,7 @@
 }
 
 body {
-  /* width: 375px; */
+  width: 375px;
 }
 
 #nav-bar {
@@ -23,7 +23,7 @@ body {
 #logo {
   font-family: 'Roboto', serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   line-height: 24px;
   display: flex;
@@ -47,7 +47,6 @@ body {
 .first-sec {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
   height: 590px;
@@ -58,10 +57,10 @@ body {
 }
 
 .tittle {
-  width: 327px;
+  margin-right: 24px;
   font-family: 'Crete Round', serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -69,10 +68,10 @@ body {
 }
 
 .sub-tittle {
-  width: 327px;
+  margin-right: 24px;
   font-family: 'Roboto', serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 24px;
   line-height: 32px;
   display: flex;
@@ -81,10 +80,10 @@ body {
 }
 
 .paragh {
-  width: 327px;
+  margin-right: 24px;
   font-family: 'Poppins', serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -116,7 +115,6 @@ body {
 }
 
 .second-tittle {
-  width: 327px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 700px;
@@ -129,10 +127,9 @@ body {
 }
 
 .second-subtittle {
-  width: 327px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -141,17 +138,16 @@ body {
 }
 
 .second-p {
-  width: 327px;
+  margin-right: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
 }
 
 .list-btn {
-   /* float: right; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -172,7 +168,7 @@ body {
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -189,7 +185,7 @@ body {
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -206,7 +202,7 @@ body {
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -223,7 +219,7 @@ body {
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -240,7 +236,7 @@ body {
   background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal, sans-serif;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
@@ -262,18 +258,18 @@ body {
   padding-top: 84px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
 }
 
 .pro-p {
-  width: 255px;
+  margin-right: 24px;
   padding-top: 18px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -326,7 +322,7 @@ body {
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
@@ -350,24 +346,22 @@ body {
 }
 
 .third-tittle {
-  width: 327px;
   height: 79px;
   padding-top: 84px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
+  font-weight: 400px;
+  font-size: 65px;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
 }
 
 .third-p {
-  width: 327px;
   height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
@@ -385,7 +379,7 @@ body {
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
@@ -396,8 +390,6 @@ body {
 .line2 {
   border: 1px solid #313030;
   margin-bottom: 70px;
-
-  /* padding: 1px; */
   height: 1px;
   width: 325px;
 }
@@ -418,7 +410,7 @@ body {
   gap: 20px;
   font-family: "Inter", serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 32px;
   padding-top: 30px;
 }
@@ -432,7 +424,7 @@ body {
 .lang {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -443,7 +435,7 @@ body {
 .head-items a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 22px;
   line-height: 43px;
   color: #fff;
@@ -519,32 +511,32 @@ body {
 
 /* contact form section */
 
-.intrested {
+.interested {
   font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700px;
-font-size: 32px;
-line-height: 44px;
-text-align: unset;
-color: #172b4d;
-text-align: unset;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: unset;
+  color: #172b4d;
+  margin-right: 24px;
 }
- 
+
 .name-input {
   width: 327px;
-height: 48px;
-display: flex;
-align-items: center;
-border: none;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 400px;
-font-size: 15px;
-line-height: 24px;
-color: #979493;
-margin-top: 64px;
-padding: 0 24px;
-background-color: #fbf8f7;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  margin-top: 64px;
+  padding: 0 24px;
+  background-color: #fbf8f7;
 }
 
 .email-input {
@@ -552,31 +544,31 @@ background-color: #fbf8f7;
   width: 327px;
   height: 48px;
   display: flex;
-align-items: center;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 400px;
-font-size: 15px;
-line-height: 24px;
-color: #979493;
-border: none;
-padding: 0 24px;
-background-color: #fbf8f7;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: none;
+  padding: 0 24px;
+  background-color: #fbf8f7;
 }
 
 .msg-input {
   margin-top: 35px;
   font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 400px;
-font-size: 15px;
-line-height: 24px;
-color: #3c3a39;
-width: 327px;
-height: 114px;
-border: none;
-background-color: #fbf8f7;
-padding: 0 24px;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  width: 327px;
+  height: 114px;
+  border: none;
+  background-color: #fbf8f7;
+  padding: 0 24px;
 }
 
 .form-btn {
@@ -589,13 +581,13 @@ padding: 0 24px;
   align-items: center;
   text-align: center;
   justify-content: center;
-  letter-spacing: 0.03em;  
+  letter-spacing: 0.03em;
   color: #fff;
-width: 131px;
-height: 48px;
-background: #ff6b00;
-border: none;
-margin: 26px 84px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  border: none;
+  margin: 26px 84px;
 }
 
 .line3 {
@@ -607,16 +599,16 @@ margin: 26px 84px;
 .form-sec {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 120px 24px;
- background-color: #fff;
-  height: 800px;
+  background-color: #fff;
+  height: 1050px;
 }
 
 .line4 {
   border: 1px solid #dfe1e6;
   height: 1px;
   width: 100% auto;
+  margin-bottom: 29px;
 }
 
 .newsocial2 {
@@ -627,13 +619,14 @@ margin: 26px 84px;
 
 #social-media2 {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   align-items: center;
   justify-content: center;
 }
+
 .form-btn:hover {
   background-color: #fff;
-  border: 1px solid goldenrod;
+  border: 1px solid rgb(248, 180, 8);
   color: #091e42;
   transition-duration: 3s;
 }
