@@ -23,8 +23,17 @@ https://github.com/eerapheal/Ekpenisi-portfolio
 ## Install
 npm install
 
-## Author
-Ekpenisi Erue Raphael. GitHub: (https://github.com/eerapheal) Twitter: (https://twitter.com/ekpenisiraphael) LinkedIn: (https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
+## Author1
+Ekpenisi Erue Raphael.
+ 
+GitHub: (https://github.com/eerapheal) 
+Twitter: (https://twitter.com/ekpenisiraphael) 
+LinkedIn: (https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
+
+## Author2:
+Kennedy Omondi
+
+GitHub @kennankole
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

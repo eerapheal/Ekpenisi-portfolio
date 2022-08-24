@@ -453,30 +453,35 @@ body {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 .html-btn:hover {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 .boot-btn:hover {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 .ruby-btn:hover {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 .pro-html:hover {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 .pro-boot:hover {
@@ -489,24 +494,28 @@ body {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 .pro-btn:hover {
   color: #ff6b00;
   background-color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 .get-btn:hover {
   color: #ff6b00;
   background-color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 .btn-top:hover {
   color: #ff6b00;
   background-color: #fff;
   transition-duration: 2s;
+  border: 1px solid #f55800;
 }
 
 /* contact form section */
@@ -517,7 +526,7 @@ body {
   font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
-  text-align: unset;
+  text-align: center;
   color: #172b4d;
   margin-right: 24px;
 }
@@ -625,8 +634,8 @@ body {
 }
 
 .form-btn:hover {
-  background-color: #fff;
-  border: 1px solid rgb(248, 180, 8);
-  color: #091e42;
-  transition-duration: 3s;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  transition-duration: 2s;
 }
