@@ -647,6 +647,10 @@ body {
 .newsocial3 {
   display: none;
 }
+
+.img-desk2 {
+  display: none;
+}
 /*  */
 
 @media all and (min-width: 768px) {
@@ -660,6 +664,10 @@ body {
 }
 
 .newsocial {
+  display: none;
+}
+
+.img-desk {
   display: none;
 }
 
@@ -730,5 +738,40 @@ margin-right: 731px;
   gap: 15px;
   padding: 0 20px;
   margin-top:53px;
+}
+
+#my-recnt {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  padding: 0px 152px 0px;
+}
+.second-tittle {
+  margin-bottom: 0px;
+}
+
+.line2 {
+  border: 1px solid #313030;
+  margin-bottom: 0px;
+  height: 1px;
+  width: 620px;
+}
+#multi {
+  display: flex;
+  flex-direction: row;
+  height: 0 auto;
+  padding: 120px 141px 0px;
+}
+
+.img-desk2 {
+  display: flex;
+  width: 684px;
+height: 448px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
 }
 }
