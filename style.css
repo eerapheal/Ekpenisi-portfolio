@@ -518,7 +518,9 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  text-align: unset
   text-align: unset;
+  color: #172b4d;
   margin-right: 24px;
 }
 
@@ -630,7 +632,3 @@ body {
   color: #091e42;
   transition-duration: 3s;
 }
-
-/* desktop version part */
-
-/* @media and all (min-width"1200") */
