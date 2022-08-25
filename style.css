@@ -250,10 +250,10 @@ body {
   background-size: cover;
   height: 386px;
   width: 327px;
-  padding: 0 20px;
 }
 
 .pro {
+  padding: 0 20px;
   width: 295px;
   padding-top: 84px;
   font-family: 'Crete Round', sans-serif;
@@ -265,6 +265,7 @@ body {
 }
 
 .pro-p {
+  padding: 0 20px;
   margin-right: 24px;
   padding-top: 18px;
   font-family: 'Inter', sans-serif;
@@ -283,6 +284,7 @@ body {
   gap: 12px;
   width: 236px;
   margin-top: 15px;
+  padding: 0 20px;
 }
 
 .pro-html {
@@ -651,6 +653,10 @@ body {
 .img-desk2 {
   display: none;
 }
+
+.medium {
+  display: none;
+}
 /*  */
 
 @media all and (min-width: 768px) {
@@ -743,7 +749,7 @@ margin-right: 731px;
 /*  */
 
 .second-sec {
-  padding: 0 141px;
+  padding: 126px 89px;
 }
 #my-recnt {
   display: flex;
@@ -778,5 +784,79 @@ height: 448px;
   display: flex;
   flex-direction: column;
   padding: 0 24px;
+}
+
+.grid {display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 29px;
+}
+.slef {
+  width: 369px;
+height: 435px;
+background:
+  linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%),
+  url(./images/Imgplaceholder.png);
+background-repeat: no-repeat;
+}
+.grid-1 {
+width: 369px;
+height: 435px;
+background:
+  linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%),
+  url(./images/Imgplaceholder.png);
+background-repeat: no-repeat;
+padding: 105px 0px;
+}
+
+.grid-2 {
+  width: 369px;
+  height: 435px;
+  background:
+    linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%),
+    url(./images/Imgplaceholder1.png);
+  background-repeat: no-repeat;
+  padding: 105px 0px;
+  
+  }
+
+  .grid-3 {
+    width: 369px;
+    height: 435px;
+    background:
+      linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%),
+      url(./images/Imgplaceholder2.png);
+    background-repeat: no-repeat;
+    padding: 105px 0px;
+    }
+
+
+  .pro-btn {
+    display: none;
+  }
+ 
+  .ulnon {
+    display: none;
+  }
+
+.third-sec {
+  width: 100%;
+}
+
+.medium {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 369px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+  margin-top:20px;
 }
 }
