@@ -1091,7 +1091,7 @@ body {
   }
 
   .tittle {
-    margin-right: 710px;
+    margin-right: 560px;
     padding: 0 143px;
   }
 
@@ -1128,7 +1128,7 @@ body {
   }
 }
 
-@media all and (min-width: 1400px) {
+@media all and (min-width: 1300px) {
   * {
     padding: 0;
     margin: o;
