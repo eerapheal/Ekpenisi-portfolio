@@ -684,8 +684,6 @@ body {
 
 /* desktop version  */
 
-
-
 @media all and (min-width: 768px) {
   * {
     margin: 0;
