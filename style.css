@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   background-repeat: no-repeat;
   text-decoration: none;
   list-style: none;
   font-family: 'Roboto Slab', serif;
-  box-sizing: border-box;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
   font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 700px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -688,6 +688,7 @@ body {
   * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   body {
@@ -725,11 +726,27 @@ body {
   }
 
   #desk-nav ul a {
+    color: #fff;
+  }
+
+  #desk-nav ul li {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600px;
     font-size: 15px;
     line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .logo {
+    font-family: 'inter', serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 24px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -1061,5 +1078,86 @@ body {
     transition-duration: 2s;
     border: 1px solid #f55800;
     padding-top: 0 30px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  * {
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+  }
+
+  .tittle {
+    margin-right: 510px;
+    padding: 0 143px;
+  }
+
+  .paragh {
+    margin-right: 510px;
+    padding: 0 143px;
+  }
+
+  .sub-tittle {
+    padding: 0 143px;
+  }
+
+  .line6 {
+    border: 1px solid #e5e5e5;
+    height: 1px;
+    width: 1020px;
+    align-items: center;
+  }
+
+  .second-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #my-recnt {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+
+  #multi {
+    margin-right: 90px;
+  }
+}
+
+@media all and (min-width: 1395px) {
+  * {
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+  }
+
+  .tittle {
+    margin-right: 700px;
+    font-size: 55px;
+  }
+
+  .paragh {
+    margin-right: 576px;
+    padding: 0 143px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .sub-tittle {
+    padding: 0 143px;
+    font-size: 30px;
+    margin: 15px 0;
+  }
+
+  .line6 {
+    border: 1px solid #e5e5e5;
+    height: 1px;
+    width: 1220px;
+  }
+
+  #multi {
+    margin-left: 35px;
   }
 }
