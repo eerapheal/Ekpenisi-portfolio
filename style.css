@@ -684,7 +684,9 @@ body {
 
 /* desktop version  */
 
-@media all and (min-width: 769px) {
+
+
+@media all and (min-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -1089,7 +1091,7 @@ body {
   }
 
   .tittle {
-    margin-right: 510px;
+    margin-right: 710px;
     padding: 0 143px;
   }
 
@@ -1126,7 +1128,7 @@ body {
   }
 }
 
-@media all and (min-width: 1395px) {
+@media all and (min-width: 1400px) {
   * {
     padding: 0;
     margin: o;
@@ -1134,7 +1136,7 @@ body {
   }
 
   .tittle {
-    margin-right: 700px;
+    margin-right: 710px;
     font-size: 55px;
   }
 
