@@ -102,13 +102,6 @@ body {
   padding-top: 20px;
 }
 
-.logo:hover {
-  color: #e4e4e2;
-  transition-duration: 3ms;
-  padding-top: 0 30px;
-  background-color: #3d3c3b;
-}
-
 .second-sec {
   color: #e5e5e5;
   display: flex;
@@ -239,7 +232,7 @@ body {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 126px;
+  width: 129px;
   height: 48px;
   background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
@@ -256,7 +249,7 @@ body {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0) 61.94%), url(./images/Img-Placeholder-pro.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 386px;
+  height: 360px;
   width: 327px;
 }
 
@@ -458,12 +451,20 @@ body {
   padding-top: 30px;
 }
 
+#desk-nav ul a:hover {
+  color: #e4e4e2;
+  transition-duration: 3ms;
+  background-color: #3d3c3b;
+  margin: 6px;
+}
+
 .css-btn:hover {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
-  padding-top: 0 30px;
+  cursor: pointer;
+  margin: 6px;
 }
 
 .html-btn:hover {
@@ -471,7 +472,8 @@ body {
   color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
-  padding-top: 0 30px;
+  cursor: pointer;
+  margin: 6px;
 }
 
 .boot-btn:hover {
@@ -479,7 +481,8 @@ body {
   color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
-  padding-top: 0 30px;
+  margin: 6px;
+  cursor: pointer;
 }
 
 .ruby-btn:hover {
@@ -487,7 +490,8 @@ body {
   color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
-  padding-top: 0 30px;
+  cursor: pointer;
+  margin: 6px;
 }
 
 .pro-html:hover {
@@ -495,14 +499,16 @@ body {
   color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
-  padding-top: 0 30px;
+  margin: 6px;
+  cursor: pointer;
 }
 
 .pro-boot:hover {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
-  padding-top: 0 30px;
+  cursor: pointer;
+  margin: 6px;
 }
 
 .pro-rubby:hover {
@@ -510,7 +516,8 @@ body {
   color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
-  padding-top: 0 30px;
+  cursor: pointer;
+  margin: 6px;
 }
 
 .pro-btn:hover {
@@ -518,7 +525,8 @@ body {
   background-color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
-  padding-top: 0 30px;
+  margin: 6px;
+  cursor: pointer;
 }
 
 .get-btn:hover {
@@ -526,7 +534,8 @@ body {
   background-color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
-  padding-top: 0 30px;
+  cursor: pointer;
+  margin: 10px;
 }
 
 .btn-top:hover {
@@ -534,7 +543,25 @@ body {
   background-color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.logo:hover {
+  color: #e4e4e2;
+  transition-duration: 3ms;
   padding-top: 0 30px;
+  background-color: #3d3c3b;
+  margin: 6px;
+}
+
+.form-btn2:hover {
+  color: #ff6b00;
+  background-color: #fff;
+  transition-duration: 2s;
+  border: 1px solid #f55800;
+  margin: 6px;
+  cursor: pointer;
 }
 
 /* contact form section */
@@ -618,6 +645,16 @@ body {
   margin: 26px 84px;
 }
 
+.form-btn:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  transition-duration: 2s;
+  padding-top: 0 30px;
+  cursor: pointer;
+  margin-top: 1px;
+}
+
 .line3 {
   border: 1px solid #e5e5e5;
   height: 1px;
@@ -652,14 +689,6 @@ body {
   justify-content: center;
 }
 
-.form-btn:hover {
-  background-color: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
-  transition-duration: 2s;
-  padding-top: 0 30px;
-}
-
 #desk-nav {
   display: none;
 }
@@ -687,10 +716,19 @@ body {
 /* desktop version  */
 
 @media all and (min-width: 768px) {
+  .img-desk {
+    display: none;
+  }
+
+  #social-media {
+    display: none;
+  }
+
   html {
     scroll-behavior: smooth;
     transition-duration: 1ms;
   }
+
   body {
     width: auto;
   }
@@ -846,7 +884,7 @@ body {
 
   .grid-1 {
     width: 369px;
-    height: 435px;
+    height: 459px;
     background:
       linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%),
       url(./images/Imgplaceholder.png);
@@ -862,7 +900,7 @@ body {
 
   .grid-2 {
     width: 369px;
-    height: 435px;
+    height: 459px;
     background:
       linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%),
       url(./images/Imgplaceholder1.png);
@@ -872,7 +910,7 @@ body {
 
   .grid-3 {
     width: 369px;
-    height: 435px;
+    height: 459px;
     background:
       linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%),
       url(./images/Imgplaceholder2.png);
@@ -1068,20 +1106,14 @@ body {
     height: 670px;
   }
 
-  .form-btn2:hover {
-    color: #ff6b00;
-    background-color: #fff;
-    transition-duration: 2s;
-    border: 1px solid #f55800;
-    padding-top: 0 30px;
-  }
 
   .medium:hover {
     color: #ff6b00;
     background-color: #fff;
     transition-duration: 2s;
     border: 1px solid #f55800;
-    padding-top: 0 30px;
+    cursor: pointer;
+    margin: 6px 0;
   }
 }
 
