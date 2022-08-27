@@ -687,6 +687,9 @@ body {
 /* desktop version  */
 
 @media all and (min-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     width: auto;
   }
@@ -699,11 +702,8 @@ body {
     display: none;
   }
 
-  .img-desk {
-    display: none;
-  }
-
   #desk-nav {
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -711,6 +711,7 @@ body {
     left: 0;
     top: 0;
     background: #3e3c3c;
+    width: 100%;
   }
 
   #desk-nav ul {
@@ -850,6 +851,12 @@ body {
       url(./images/Imgplaceholder.png);
     background-repeat: no-repeat;
     padding: 105px 0;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+
+  .grid-1:hover {
+    top: -50px;
   }
 
   .grid-2 {
