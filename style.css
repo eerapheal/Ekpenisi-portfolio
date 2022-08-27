@@ -689,6 +689,7 @@ body {
 @media all and (min-width: 768px) {
   html {
     scroll-behavior: smooth;
+    transition-duration: 1ms;
   }
   body {
     width: auto;
