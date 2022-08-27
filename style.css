@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
   background-repeat: no-repeat;
   text-decoration: none;
   list-style: none;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'inter', sans-serif;
 }
 
 body {
@@ -58,7 +59,7 @@ body {
 
 .tittle {
   margin-right: 24px;
-  font-family: 'Crete Round', serif;
+  font-family: 'inter', serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 56px;
@@ -685,12 +686,6 @@ body {
 /* desktop version  */
 
 @media all and (min-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
   body {
     width: auto;
   }
@@ -727,18 +722,17 @@ body {
 
   #desk-nav ul a {
     color: #fff;
-  }
-
-  #desk-nav ul li {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600px;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  #desk-nav ul li {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #fff;
   }
 
   .logo {
@@ -764,6 +758,7 @@ body {
   .tittle {
     margin-right: 731px;
     padding: 0 143px;
+    font-family: 'Crete Round', sans-serif;
   }
 
   .paragh {
@@ -1082,15 +1077,21 @@ body {
 }
 
 @media all and (min-width: 1200px) {
-  * {
-    padding: 0;
-    margin: o;
-    box-sizing: border-box;
-  }
 
+  #desk-nav ul a {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
   .tittle {
     margin-right: 560px;
     padding: 0 143px;
+    font-family: 'Crete Round';
+    font-style: normal;
   }
 
   .paragh {
@@ -1127,12 +1128,6 @@ body {
 }
 
 @media all and (min-width: 1300px) {
-  * {
-    padding: 0;
-    margin: o;
-    box-sizing: border-box;
-  }
-
   .tittle {
     margin-right: 710px;
     font-size: 55px;
@@ -1141,8 +1136,8 @@ body {
   .paragh {
     margin-right: 576px;
     padding: 0 143px;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .sub-tittle {
