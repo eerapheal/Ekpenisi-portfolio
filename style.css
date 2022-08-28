@@ -10,10 +10,6 @@
   font-family: 'inter', sans-serif;
 }
 
-body {
-  width: 375px;
-}
-
 #nav-bar {
   display: flex;
   justify-content: space-around;
@@ -51,7 +47,7 @@ body {
   flex-direction: column;
   padding: 120px 24px;
   gap: 12px;
-  height: 590px auto;
+  height: 590px;
   background-color: #1c1a19;
   background-image: url("./images/illustration-header-mobile.png");
   background-position: right bottom;
@@ -67,6 +63,7 @@ body {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  -webkit-text-stroke: 0.01vw #f7cfa7;
 }
 
 .sub-tittle {
@@ -79,6 +76,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff5e1;
+  -webkit-text-stroke: 0.1vw #e0e0d8;
 }
 
 .paragh {
@@ -89,6 +87,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  -webkit-text-stroke: 0.01vw #6b6b65;
 }
 
 .newsocial {
@@ -331,7 +330,7 @@ body {
 }
 
 .third-sec {
-  width: 375px;
+  /* width: 375px; */
   height: 1901px;
   background: #1c1a19;
 }
@@ -794,6 +793,8 @@ body {
     background-repeat: no-repeat;
     background-color: #1c1a19;
     height: 802px;
+
+    /* width: 1250px; */
   }
 
   .tittle {
@@ -951,16 +952,18 @@ body {
   }
 
   .third-sec {
-    width: 100%;
+    /* width: 1250px; */
     height: 1090px;
   }
 
   .third-tittle {
     margin: 0 82px;
+
+    /* margin-right: 200px; */
   }
 
   .third-p {
-    width: 61%;
+    margin-right: 431px;
     padding: 0 82px;
   }
 
@@ -1113,6 +1116,12 @@ body {
     border: 1px solid #f55800;
     cursor: pointer;
     margin: 6px 0;
+  }
+}
+
+@media only sreen and (min-width: 768px) and (max-width: 1024px) {
+  .first-sec {
+    width: 1300px;
   }
 }
 
