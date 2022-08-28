@@ -6,45 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ekpenisi E Raphael portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-</head>
+   </head>
 <body>
     <header>
-        <nav id="nav-bar">
-          <a href="#"><h2 id="logo">Ekpenisi E Raphael</h2></a>
+        <nav>
+          <div id="desk-nav">
+            <a href="#homes"><h2 class="logo">Ekpenisi E Raphael</h2></a>
+            <ul>
+              <li>
+                <a href="#profesion">Portfolio</a>
+              </li>
+              <li>
+                <a href="#aboutus">About</a>
+              </li>
+              <li>
+                <a href="#contsct">Contact</a>
+              </li>
+            <li>
+              <a href="#contsct" target="_blank"> <img width="20" height="25" src="images/Union.png" alt="icon"></a>
+            </li>
+            </ul>
+          </div>
+          <div id="nav-bar">
+          <a href="#"><h2 class="logo">Ekpenisi E Raphael</h2></a>
           <div class="ambuger">
             <div class="aambuger-bar"></div>
             <div class="aambuger-bar"></div>
             <div class="aambuger-bar"></div>
           </div>
+        </div>
         </nav>
     </header>
     <main>
-      <section class="first-sec">
+      <section id="homes" class="first-sec">
         <h1 class="tittle">Hey There. I’m Ralph</h1>
         <h2 class="sub-tittle">I’am a Software Developer</h2>
         <p class="paragh">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
           don’t hestiate to contact me.
         </p>
-        <div class="newsocial">
-          <ul id="social-media">
-            <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector1.png" alt="icon"></a></li>
-            <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Group.png" alt="icon"></a></li>
-            <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector2.png" alt="icon"></a></li>
-            <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector3.png" alt="icon"></a></li>
-            <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector.png" alt="icon"></a></li>
-          </ul> 
+        <div class="newsocial" id="social-media">
+          <a href="github.com/eerapheal/" target="_blank"> <img width="20" height="25" src="images/github.png" alt="GitHub"></a>
+          <a href="linkedin.com/in/ekpenisi-e-raphael-9678a221a/" target="_blank"> <img width="20" height="25" src="images/Linkedinicon.png" alt="Linkedin"></a>
+          <a href="#2" target="_blank"> <img width="20" height="25" src="images/angellist.png" alt="icon"></a>
+          <a href="twitter.com/ekpenisiraphael/" target="_blank"> <img width="20" height="25" src="images/twitter.png" alt="Twitter"></a>
+          <a href="#2" target="_blank"> <img width="20" height="25" src="images/medium.png" alt="icon"></a>
+      </div>
+        <div class="newsocial3" id="social-media3">
+            <a href="github.com/eerapheal/" target="_blank"> <img width="20" height="25" src="./images/github.png" alt="GitHub"></a>
+            <a href="linkedin.com/in/ekpenisi-e-raphael-9678a221a/" target="_blank"> <img width="20" height="25" src="./images/Linkedinicon.png" alt="Linkedin"></a>
+            <a href="#2" target="_blank"> <img width="20" height="25" src="images/angellist.png" alt="icon"></a>
+            <a href="twitter.com/ekpenisiraphael/" target="_blank"> <img width="20" height="25" src="./images/twitter.png" alt="Twitter"></a>
+            <a href="#2" target="_blank"> <img width="20" height="25" src="images/medium.png" alt="icon"></a>
         </div>
       </section>
       <!--  -->
-<section class="second-sec">
+<section id="profesion" class="second-sec">
+  <div id ="my-recnt">
   <h3 class="second-tittle">
     My Recent Works
   </h3>
   <hr class="line2">
-  <img width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+</div>
+<div id="multi">
+  <img class="img-desk" width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+  <img class="img-desk2" width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+  <div class="post">
   <h3 class="second-subtittle">
     Multi-Post Stories
   </h3>
@@ -60,8 +86,26 @@
     </ul>
     <button class="btn-top" type="button">See projests</button>
   </div>
+</div>
+</div>
+<div class="grid">
+     
+      <div class="">
+        <div  class="header-pro grid-1">
+          <h4 class="pro">Profesional Art Printing Data</h4>
+          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
+          been the industry's standard</p>
+          <ul class="pro-ul ulnon">
+            <li class="pro-html">html</li>
+            <li class="pro-boot">bootsrap</li>
+            <li class="pro-rubby">Ruby</li>
+          </ul>
+          <button class="medium"  type="button">See Projests</button> 
+        </div>
+        <button class="pro-btn" type="button">See Projests</button> 
+      </div>  
       <div>
-        <div  class="header-pro">
+        <div  class="header-pro grid-2">
           <h4 class="pro">Profesional Art Printing Data</h4>
           <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
           been the industry's standard</p>
@@ -74,7 +118,7 @@
         <button class="pro-btn" type="button">See Projests</button> 
       </div>  
       <div>
-        <div  class="header-pro">
+        <div  class="header-pro grid-3">
           <h4 class="pro">Profesional Art Printing Data</h4>
           <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
           been the industry's standard</p>
@@ -87,7 +131,7 @@
         <button class="pro-btn" type="button">See Projests</button> 
       </div>  
       <div>
-        <div  class="header-pro">
+        <div  class="header-pro grid-1">
           <h4 class="pro">Profesional Art Printing Data</h4>
           <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
           been the industry's standard</p>
@@ -100,7 +144,7 @@
         <button class="pro-btn" type="button">See Projests</button> 
       </div>  
       <div>
-        <div  class="header-pro">
+        <div  class="header-pro grid-2">
           <h4 class="pro">Profesional Art Printing Data</h4>
           <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
           been the industry's standard</p>
@@ -113,7 +157,7 @@
         <button class="pro-btn" type="button">See Projests</button> 
       </div>  
       <div>
-        <div  class="header-pro">
+        <div  class="header-pro grid-3">
           <h4 class="pro">Profesional Art Printing Data</h4>
           <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
           been the industry's standard</p>
@@ -124,44 +168,37 @@
           </ul>
         </div>
         <button class="pro-btn" type="button">See Projests</button> 
-      </div>  
-      <div>
-        <div  class="header-pro">
-          <h4 class="pro">Profesional Art Printing Data</h4>
-          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-          been the industry's standard</p>
-          <ul class="pro-ul">
-            <li class="pro-html">html</li>
-            <li class="pro-boot">bootsrap</li>
-            <li class="pro-rubby">Ruby</li>
-          </ul>
-        </div>
-        <button class="pro-btn" type="button">See Projests</button> 
-      </div>      
+      </div>
+    </div>      
 </section>
-<section class="third-sec">
+<section id="aboutus" class="third-sec">
   <div class="third-sec-div">
+    <div class="about-desk">
     <h1 class="third-tittle">About me</h1>
     <p class="third-p">
       Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
     </p>
     <button class="get-btn" type="button">Get My Resume</button>
-    <hr class="line1">
   </div>
-  <div>
+  <img class="igme" width="430" height="237" src="./images/illustration-aboutme@2x.png" alt="icon">
+  <img class="igmnoe" width="130" height="137" src="./images/illustration-about-me-mobile.png" alt="icon">
+     <hr class="line1"> 
+  </div>
+  <div class="line6"></div>
+  <div class="lang-desk">
     <div>
-      <div class="head"  id="padding">
+      <div class="head">
         <img class="" src="./images/Rectangle-55.png" alt="icon">
         <h2 class="lang">Language</h2>
       </div>
-    <ul  class="head-items">
+     <ul  class="head-items">
       <li><a class="li-p"  href="#">Javascript</a></li>
      <li><a href="#">Ruby</a></li>
      <li><a href="#">Html</a></li>
      <li><a href="#">Css</a></li>
-    </ul>
-  </div>
-  <div>
+     </ul>
+    </div>
+    <div>
     <div class="head">
       <img class="" src="./images/Rectangle-56.png" alt="icon">
       <h2 class="lang">Framework</h2>
@@ -191,7 +228,7 @@
 </section>
 <!--  -->
 <section class="form-sec">
-  <article class="">
+  <article class="nonative">
     <h2 class="interested">
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </h2>
@@ -205,19 +242,38 @@
         <button class="form-btn" type="submit">Get in touch</button>
     </form>
   </article>
-  <div class=""></div>
+  <article id="contsct" class="ative">
+    <h2 class="interested">
+      I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+    </h2>
+    <form class="" action="https://formspree.io/f/mknylokq" method="post">
+       
+        <div class="nameme">
+        <div class="namemes">
+        <input class="name-input2" type="text" name="name" placeholder="First Name" maxlength="30" required>
+        <input class="name-input2" type="text" name="name" placeholder="last Name" maxlength="30" required>
+      </div>
+        <div class="namemes"> 
+        <div class="line3-1"></div>
+        <div class="line3-1"></div>
+       </div>
+      </div>
+        <input class ="email-input2" type="email" name="Email" placeholder="Email Address" required>
+        <div class="line3-2"></div>
+        <textarea class="msg-input2" name="Message" placeholder="Hello we love to here from you" maxlength="500" required cols="30" rows="10"></textarea>
+        <button class="form-btn2" type="submit">Get in touch</button>
+    </form>
+  </article>
 </section>
 </main>
 <footer>
   <div class="line4"></div>
-  <div class="newsocial2">
-    <ul id="social-media2">
-      <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector01.png" alt="icon"></a></li>
-      <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector02.png" alt="icon"></a></li>
-      <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector03.png" alt="icon"></a></li>
-      <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector04.png" alt="icon"></a></li>
-      <li><a href="#" target="_blank"> <img width="20" height="25" src="images/Vector05.png" alt="icon"></a></li>
-    </ul> 
+  <div class="newsocial2" id="social-media2">
+      <a href="#2" target="_blank"> <img width="20" height="25" src="images/Vector01.png" alt="icon"></a>
+      <a href="#2" target="_blank"> <img width="20" height="25" src="images/Vector02.png" alt="icon"></a>
+      <a href="#2" target="_blank"> <img width="20" height="25" src="images/Vector03.png" alt="icon"></a>
+      <a href="#2" target="_blank"> <img width="20" height="25" src="images/Vector04.png" alt="icon"></a>
+      <a href="#2" target="_blank"> <img width="20" height="25" src="images/Vector05.png" alt="icon"></a>
   </div>
 </footer>
 </body>
