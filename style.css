@@ -10,10 +10,6 @@
   font-family: 'inter', sans-serif;
 }
 
-body {
-  /* width: 1109px; */
-}
-
 #nav-bar {
   display: flex;
   justify-content: space-around;
@@ -787,7 +783,6 @@ body {
     color: #fff;
   }
 
-
   .first-sec {
     background-color: #1c1a19;
     height: 602px;
@@ -807,7 +802,6 @@ body {
   .sub-tittle {
     padding: 0 143px;
   }
-
 
   .newsocial3 {
     position: absolute;
