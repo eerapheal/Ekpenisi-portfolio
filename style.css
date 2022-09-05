@@ -91,11 +91,10 @@
   margin-right: 24px;
   font-family: 'inter', serif;
   font-style: normal;
-  font-size: 56px;
+  font-size: 55px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  -webkit-text-stroke: 0.01vw #f7cfa7;
 }
 
 .sub-tittle {
@@ -107,7 +106,6 @@
   display: flex;
   align-items: center;
   color: #fff5e1;
-  -webkit-text-stroke: 0.1vw #e0e0d8;
 }
 
 .paragh {
