@@ -22,16 +22,14 @@
 
 .nav-item {
   display: flex;
-  padding-left: 90px;
   position: fixed;
   left: -100%;
   top: 35px;
   flex-direction: column;
   background-color: #3c3a39;
   width: 100%;
-  text-align: center;
-  transition: 0, 3s;
   height: 100%;
+  padding-top: 44px;
 }
 
 .nav-item.active {
@@ -42,21 +40,14 @@
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 600px;
   font-size: 32px;
   line-height: 44px;
-}
-
-.nav-item li {
-  display: flex;
-  align-items: center;
-  text-align: center;
+  padding-left: 30px;
 }
 
 .logo {
   font-family: 'Roboto', serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 20px;
   line-height: 24px;
   display: flex;
@@ -82,6 +73,8 @@
 .han-line {
   border: 1px solid #6f6c6b;
   margin-bottom: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .first-sec {
@@ -100,32 +93,27 @@
   margin-right: 24px;
   font-family: 'inter', serif;
   font-style: normal;
-  font-weight: 400px;
-  font-size: 56px;
+  font-size: 55px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  -webkit-text-stroke: 0.01vw #f7cfa7;
 }
 
 .sub-tittle {
   margin-right: 24px;
   font-family: 'Roboto', serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
   color: #fff5e1;
-  -webkit-text-stroke: 0.1vw #e0e0d8;
 }
 
 .paragh {
   margin-right: 24px;
   font-family: 'Poppins', serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -156,7 +144,6 @@
 .second-tittle {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 39px;
   line-height: 52px;
   display: flex;
@@ -168,7 +155,6 @@
 .second-subtittle {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -180,7 +166,6 @@
   margin-right: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
@@ -211,7 +196,6 @@
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
   font-style: normal;
-  font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -228,7 +212,6 @@
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
   font-style: normal;
-  font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -245,7 +228,6 @@
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
   font-style: normal;
-  font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -262,7 +244,6 @@
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
   font-style: normal;
-  font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -278,8 +259,7 @@
   height: 48px;
   background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
-  font-style: normal, sans-serif;
-  font-weight: 700px;
+  font-style: normal;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
@@ -301,7 +281,6 @@
   padding-top: 84px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
@@ -313,7 +292,6 @@
   padding-top: 18px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -366,7 +344,6 @@
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
@@ -395,7 +372,6 @@
   padding-top: 84px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 65px;
   line-height: 88px;
   letter-spacing: 0.37px;
@@ -407,7 +383,6 @@
   height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
@@ -426,7 +401,6 @@
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
@@ -453,7 +427,6 @@
   gap: 20px;
   font-family: "Inter", serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 32px;
   padding-top: 82px;
 }
@@ -467,7 +440,6 @@
 .lang {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -478,7 +450,6 @@
 .head-items a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 22px;
   line-height: 43px;
   color: #fff;
@@ -591,7 +562,6 @@
 .logo:hover {
   color: #e4e4e2;
   transition-duration: 3ms;
-  padding-top: 0 30px;
   background-color: #3d3c3b;
   margin: 6px;
 }
@@ -610,8 +580,6 @@
 .interested {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
-  font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
@@ -626,7 +594,6 @@
   border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
   color: #979493;
@@ -643,7 +610,6 @@
   align-items: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
   color: #979493;
@@ -656,7 +622,6 @@
   margin-top: 35px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
   color: #3c3a39;
@@ -670,7 +635,6 @@
 .form-btn {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
   display: flex;
@@ -691,7 +655,6 @@
   border: 1px solid #f55800;
   color: #f55800;
   transition-duration: 2s;
-  padding-top: 0 30px;
   cursor: pointer;
   margin-top: 1px;
 }
@@ -713,7 +676,7 @@
 .line4 {
   border: 1px solid #dfe1e6;
   height: 1px;
-  width: 100% auto;
+  width: 100%;
   margin-bottom: 29px;
 }
 
@@ -821,7 +784,6 @@
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 600px;
     font-size: 15px;
     line-height: 20px;
   }
@@ -835,7 +797,6 @@
   .logo {
     font-family: 'inter', serif;
     font-style: normal;
-    font-weight: 700px;
     font-size: 20px;
     line-height: 24px;
     display: flex;
@@ -876,10 +837,6 @@
     gap: 15px;
     padding: 0 20px;
     margin-top: 53px;
-  }
-
-  .second-sec {
-    padding: 126px px;
   }
 
   #my-recnt {
@@ -957,7 +914,6 @@
     border: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400px;
     font-size: 15px;
     line-height: 24px;
     color: #979493;
@@ -974,7 +930,6 @@
     align-items: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400px;
     font-size: 15px;
     line-height: 24px;
     color: #979493;
@@ -987,7 +942,6 @@
     margin-top: 35px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400px;
     font-size: 15px;
     line-height: 24px;
     color: #3c3a39;
@@ -1001,7 +955,6 @@
   .form-btn2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 700px;
     font-size: 17px;
     line-height: 24px;
     display: flex;
@@ -1081,7 +1034,6 @@
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 600px;
     font-size: 15px;
     line-height: 20px;
   }
@@ -1095,7 +1047,6 @@
   .logo {
     font-family: 'inter', serif;
     font-style: normal;
-    font-weight: 700px;
     font-size: 20px;
     line-height: 24px;
     display: flex;
@@ -1167,7 +1118,6 @@
   #multi {
     display: flex;
     flex-direction: row;
-    height: 0 auto;
     padding: 120px 0 0;
   }
 
@@ -1258,7 +1208,6 @@
     background: #ff6b00;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 700px;
     font-size: 17px;
     line-height: 24px;
     color: #fff;
@@ -1267,7 +1216,6 @@
   }
 
   .third-sec {
-    width: 100% auto;
     height: 1090px;
   }
 
@@ -1347,7 +1295,6 @@
     border: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400px;
     font-size: 15px;
     line-height: 24px;
     color: #979493;
@@ -1364,7 +1311,6 @@
     align-items: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400px;
     font-size: 15px;
     line-height: 24px;
     color: #979493;
@@ -1377,7 +1323,6 @@
     margin-top: 35px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400px;
     font-size: 15px;
     line-height: 24px;
     color: #3c3a39;
@@ -1391,7 +1336,6 @@
   .form-btn2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 700px;
     font-size: 17px;
     line-height: 24px;
     display: flex;
@@ -1419,7 +1363,6 @@
   }
 
   .form-sec {
-    width: 100% auto;
     height: 670px;
   }
 
