@@ -16,9 +16,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 // const modalInformation = {
 //   heading1: 'Multi Post Stories',
 //   title2: 'Keeping track of hundreds  of components website',
-//   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry
-//   . Lorem Ipsum has been the industry's standard dummy
-//   text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+//   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
 //   it 1960s with the releaLorem Ipsum is simply dummy text
 //   of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
 //   dummy text ever since the 1500s, when an unknown printer
@@ -35,3 +33,31 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 //   li2: 'Bootstrap',
 //   li3: 'Ruby on rails',
 // };
+
+function validate() {
+
+  var text =document.getElementById("text1").value;
+  var regx = /^([a-z0-9\.-]+)@([a-z0-9-]+).([a-z]{2,20})(.[a-z]{2,8})?$/;
+  
+  if (regx.test(text)){
+  document.getElementById("ibitext").innerHTML="valid";
+  document.getElementById("ibitext").style.visibility="visible";
+  document.getElementById("ibitext").style.color="green";
+  }
+  else {
+  document.getElementById("ibitext").innerHTML="invalid (lowercase only)";
+  document.getElementById("ibitext").style.visibility="visible";
+  document.getElementById("ibitext").style.color="red";
+  
+  }
+  }
+  
+  let popup = document.getElementById("popup");
+  
+  function openPop (){
+  popup.classList.add("open-popup");
+  }
+  
+  function closePopup () {
+  popup.classList.remove("open-popup");
+  }

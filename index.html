@@ -267,10 +267,11 @@
         <div class="line3-1"></div>
        </div>
       </div>
-        <input class ="email-input2" type="email" name="Email" placeholder="Email Address" required>
+        <input class ="email-input2" id="text1" type="email" name="Email" placeholder="Email Address" required>
+        <label id="ibitext" style="color: red; visibility:hidden">Invalid. lowercase only</label>
         <div class="line3-2"></div>
         <textarea class="msg-input2" name="Message" placeholder="Hello we love to here from you" maxlength="500" required cols="30" rows="10"></textarea>
-        <button class="form-btn2" type="submit">Get in touch</button>
+        <button onclick="validate()" class="form-btn2" type="submit">Get in touch</button>
     </form>
   </article>
 </section>
