@@ -245,10 +245,11 @@
         <input class="name-input" type="text" name="name" placeholder="Full Name" maxlength="30" required>
         <div class="line3"></div>
         
-        <input class ="email-input" type="email" name="Email" placeholder="Email Address" required>
+        <input class ="email-input" id="text1" type="email" name="Email" placeholder="Email Address" required>
+        <label id="ibitext"></label>
         <div class="line3"></div>
         <textarea class="msg-input" name="Message" placeholder="Enter Text Here" maxlength="500" required cols="30" rows="10"></textarea>
-        <button class="form-btn" type="submit">Get in touch</button>
+        <button onclick="validate()" class="form-btn" type="submit">Get in touch</button>
     </form>
   </article>
   <article id="contsct" class="ative">
