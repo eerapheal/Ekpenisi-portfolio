@@ -13,31 +13,6 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 
 // pop-up window
 
-function validate() {
-  const text = document.getElementById('text1').value;
-  const regx = /^([a-z0-9]+)@([a-z0-9-]+).([a-z]{2,20})(.[a-z]{2,8})?$/;
-
-  if (regx.test(text)) {
-    document.getElementById('ibitext').innerHTML = 'valid';
-    document.getElementById('ibitext').style.visibility = 'visible';
-    document.getElementById('ibitext').style.color = 'green';
-  } else {
-    document.getElementById('ibitext').innerHTML = 'invalid (lowercase only)';
-    document.getElementById('ibitext').style.visibility = 'visible';
-    document.getElementById('ibitext').style.color = 'red';
-  }
-}
-
-// const popup = document.getElementById('popup');
-
-// function openPop() {
-//   popup.classList.add('open-popup');
-// }
-
-// function closePopup() {
-//   popup.classList.remove('open-popup');
-// }
-
 const modalInformation = {
   heading1: 'Multi Post Stories',
   title2: 'Keeping track of hundreds  of components website',
@@ -139,17 +114,15 @@ div13.appendChild(button2);
 
 const parentModal = document.querySelector('.modal');
 const closeModalButtons = document.querySelector('.close-button');
-// const openModalButtons = document.getElementByClassName('btn-top');
 
 function appear() {
   parentModal.style.display = 'block';
-  overlay.style.filter = 'blur(0px)';
 }
 
+appear();
 
 function disappear() {
   parentModal.style.display = 'none';
-  overlay.style.filter = 'blur(0px)';
 }
 
 closeModalButtons.addEventListener('click', disappear);
@@ -157,11 +130,22 @@ closeModalButtons.addEventListener('click', disappear);
 function dissappearParent(e) {
   if (e.target.className === '.modal') {
     parentModal.style.display = 'none';
-    overlay.style.filter = 'blur(0px)';
   }
 }
 parentModal.addEventListener('click', dissappearParent);
 
+function validate() {
+  const text = document.getElementById('text1').value;
+  const regx = /^([a-z0-9]+)@([a-z0-9-]+).([a-z]{2,20})(.[a-z]{2,8})?$/;
 
-
-
+  if (regx.test(text)) {
+    document.getElementById('ibitext').innerHTML = 'valid';
+    document.getElementById('ibitext').style.visibility = 'visible';
+    document.getElementById('ibitext').style.color = 'green';
+  } else {
+    document.getElementById('ibitext').innerHTML = 'invalid (lowercase only)';
+    document.getElementById('ibitext').style.visibility = 'visible';
+    document.getElementById('ibitext').style.color = 'red';
+  }
+}
+validate();
