@@ -14,9 +14,9 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 // pop-up window
 
 function displayProjects() {
-  const div= document.getElementById("projects")
-    div.innerHTML=`
-    <section id="profesion" class="second-sec" onclick="appear()">
+  const div = document.getElementById('projects');
+  div.innerHTML = `
+  <section id="profesion" class="second-sec">
   <div id ="my-recnt">
   <h3 class="second-tittle">
     My Recent Works
@@ -33,20 +33,20 @@ function displayProjects() {
   <p class="second-p">
     A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
   </p>
-  <div>
+  <div onclick="appear()">
     <ul class="list-btn">
       <li class="css-btn">css</li>
       <li class="html-btn">html</li>
       <li class="boot-btn">bootsrap</li>
       <li class="ruby-btn">ruby</li>
     </ul>
-    <button class="btn-top" type="button">See projests</button>
+    <button class="btn-top" onclick="appear()" type="button">See projests</button>
   </div>
 </div>
 </div>
-<div class="grid">
+<div class="grid" onclick="appear()">
      
-      <div class="">
+      <div >
         <div  class="header-pro grid-1">
           <h4 class="pro">Profesional Art Printing Data</h4>
           <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
@@ -126,10 +126,10 @@ function displayProjects() {
         <button class="pro-btn" type="button">See Project</button> 
       </div>
     </div>;
-    </section>`
-  }
+    </section>`;
+}
 
-    displayProjects()
+displayProjects();
 
 const modalInformation = {
   heading1: 'Multi Post Stories',
@@ -231,13 +231,13 @@ button2.innerHTML = modalInformation.button2;
 div13.appendChild(button2);
 
 const parentModal = document.querySelector('.modal');
+
 const closeModalButtons = document.querySelector('.close-button');
 function appear() {
   parentModal.style.display = 'block';
 }
 
-// appear();
-
+appear();
 function disappear() {
   parentModal.style.display = 'none';
 }
