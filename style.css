@@ -23,12 +23,11 @@
   border: 1px solid #8993a4;
   margin: 0 5px;
   font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #3c3a39;
-
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
 }
 
 .live-button {
@@ -81,9 +80,9 @@ color: #3c3a39;
 
 .title {
   font-family: "Roboto", sans-serif;
-font-style: normal;
-line-height: 44px;
-color: #172B4D;
+  font-style: normal;
+  line-height: 44px;
+  color: #172b4d;
   margin-top: 9px;
 }
 
@@ -118,7 +117,6 @@ color: #172B4D;
   background-image: url(./images/SnapshootPortfolio.png);
   background-repeat: no-repeat;
   background-size: 90% 100%;
-  background-position: cover;
   margin-top: 20px;
   height: 225px;
 }
@@ -134,9 +132,9 @@ color: #172B4D;
 
 .modal-mobile {
   font-family: 'Inter', sans-serif;
-font-style: normal;
-font-size: 15px;
-color: #344563;
+  font-style: normal;
+  font-size: 15px;
+  color: #344563;
   margin-top: 90px;
 }
 
