@@ -13,12 +13,130 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 
 // pop-up window
 
+function displayProjects() {
+  const div= document.getElementById("projects")
+    div.innerHTML=`
+    <section id="profesion" class="second-sec" onclick="appear()">
+  <div id ="my-recnt">
+  <h3 class="second-tittle">
+    My Recent Works
+  </h3>
+  <hr class="line2">
+</div>
+<div id="multi">
+  <img class="img-desk" width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+  <img class="img-desk2" width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+  <div class="post">
+  <h3 class="second-subtittle">
+    Multi-Post Stories
+  </h3>
+  <p class="second-p">
+    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+  </p>
+  <div>
+    <ul class="list-btn">
+      <li class="css-btn">css</li>
+      <li class="html-btn">html</li>
+      <li class="boot-btn">bootsrap</li>
+      <li class="ruby-btn">ruby</li>
+    </ul>
+    <button class="btn-top" type="button">See projests</button>
+  </div>
+</div>
+</div>
+<div class="grid">
+     
+      <div class="">
+        <div  class="header-pro grid-1">
+          <h4 class="pro">Profesional Art Printing Data</h4>
+          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
+          been the industry's standard</p>
+          <ul class="pro-ul ulnon">
+            <li class="pro-html">html</li>
+            <li class="pro-boot">bootsrap</li>
+            <li class="pro-rubby">Ruby</li>
+          </ul>
+          <button class="medium" type="button">See Project</button> 
+        </div>
+        <button class="pro-btn" type="button">See Project</button> 
+      </div>  
+      <div>
+        <div  class="header-pro grid-2">
+          <h4 class="pro">Profesional Art Printing Data</h4>
+          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
+          been the industry's standard</p>
+          <ul class="pro-ul">
+            <li class="pro-html">html</li>
+            <li class="pro-boot">bootsrap</li>
+            <li class="pro-rubby">Ruby</li>
+          </ul>
+        </div>
+        <button class="pro-btn" type="button">See Project</button> 
+      </div>  
+      <div>
+        <div  class="header-pro grid-3">
+          <h4 class="pro">Profesional Art Printing Data</h4>
+          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
+          been the industry's standard</p>
+          <ul class="pro-ul">
+            <li class="pro-html">html</li>
+            <li class="pro-boot">bootsrap</li>
+            <li class="pro-rubby">Ruby</li>
+          </ul>
+        </div>
+        <button class="pro-btn" type="button">See Project</button> 
+      </div>  
+      <div>
+        <div  class="header-pro grid-1">
+          <h4 class="pro">Profesional Art Printing Data</h4>
+          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
+          been the industry's standard</p>
+          <ul class="pro-ul">
+            <li class="pro-html">html</li>
+            <li class="pro-boot">bootsrap</li>
+            <li class="pro-rubby">Ruby</li>
+          </ul>
+        </div>
+        <button class="pro-btn" type="button">See Project</button> 
+      </div>  
+      <div>
+        <div  class="header-pro grid-2">
+          <h4 class="pro">Profesional Art Printing Data</h4>
+          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
+          been the industry's standard</p>
+          <ul class="pro-ul">
+            <li class="pro-html">html</li>
+            <li class="pro-boot">bootsrap</li>
+            <li class="pro-rubby">Ruby</li>
+          </ul>
+        </div>
+        <button class="pro-btn" type="button">See Project</button> 
+      </div>  
+      <div>
+        <div  class="header-pro grid-3">
+          <h4 class="pro">Profesional Art Printing Data</h4>
+          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
+          been the industry's standard</p>
+          <ul class="pro-ul">
+            <li class="pro-html">html</li>
+            <li class="pro-boot">bootsrap</li>
+            <li class="pro-rubby">Ruby</li>
+          </ul>
+        </div>
+        <button class="pro-btn" type="button">See Project</button> 
+      </div>
+    </div>;
+    </section>`
+  }
+
+    displayProjects()
+
 const modalInformation = {
   heading1: 'Multi Post Stories',
   title2: 'Keeping track of hundreds  of components website',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
   description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  imageSrc: './images/SnapshootPortfolio.png',
+  imageSrc: '<img src="./images/SnapshootPortfolio.png">',
   button1: 'See Live  <img src="./images/Icon-Export.png">',
   button2: 'See Source <img src="./images/Vectorgit.png">',
   li: 'html',
@@ -114,12 +232,11 @@ div13.appendChild(button2);
 
 const parentModal = document.querySelector('.modal');
 const closeModalButtons = document.querySelector('.close-button');
-
 function appear() {
   parentModal.style.display = 'block';
 }
 
-appear();
+// appear();
 
 function disappear() {
   parentModal.style.display = 'none';
@@ -133,19 +250,3 @@ function dissappearParent(e) {
   }
 }
 parentModal.addEventListener('click', dissappearParent);
-
-function validate() {
-  const text = document.getElementById('text1').value;
-  const regx = /^([a-z0-9]+)@([a-z0-9-]+).([a-z]{2,20})(.[a-z]{2,8})?$/;
-
-  if (regx.test(text)) {
-    document.getElementById('ibitext').innerHTML = 'valid';
-    document.getElementById('ibitext').style.visibility = 'visible';
-    document.getElementById('ibitext').style.color = 'green';
-  } else {
-    document.getElementById('ibitext').innerHTML = 'invalid (lowercase only)';
-    document.getElementById('ibitext').style.visibility = 'visible';
-    document.getElementById('ibitext').style.color = 'red';
-  }
-}
-validate();
