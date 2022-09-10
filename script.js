@@ -250,3 +250,40 @@ function dissappearParent(e) {
   }
 }
 parentModal.addEventListener('click', dissappearParent);
+
+// 
+
+// function Data() {
+//   let name2,email,psw;
+//   // name1 = document.getElementsByClassName('name1').value;
+//   name2 = document.getElementsByClassName('name2').value;
+//   email = document.getElementById('text1').value;
+//   psw = document.getElementById('msg').value;
+
+//   localStorage.setItem('name1',name1);
+//   localStorage.setItem('name2',name2);
+//   localStorage.setItem('text1',email);
+//   localStorage.setItem('msg',psw);
+// }
+const formName = document.getElementById('name1');
+const email = document.getElementById('text1');
+const formText = document.getElementById('msg');
+
+function autoFill() {
+  const storageObj = {
+    name: localStorage.setItem('customerName', formName.value),
+    email: localStorage.setItem('customerEmail', email.value),
+    customerInfo: localStorage.setItem('customerInfo', formText.value),
+  };
+  return storageObj;
+}
+
+formName.value = localStorage.getItem('customerName');
+email.value = localStorage.getItem('customerEmail');
+formText.value = localStorage.getItem('customerInfo');
+
+autoFill();
+
+formName.onchange = autoFill;
+email.onchange = autoFill;
+formText.onchange = autoFill;

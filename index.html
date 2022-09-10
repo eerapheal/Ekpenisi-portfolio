@@ -146,12 +146,12 @@
     <h2 class="interested">
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </h2>
-    <form class="" action="https://formspree.io/f/mknylokq" method="post">
+    <form id="contact-from-validation" action="https://formspree.io/f/mknylokq" method="post">
        
         <div class="nameme">
         <div class="namemes">
-        <input class="name-input2" type="text" name="name" placeholder="First Name" maxlength="30" required>
-        <input class="name-input2" type="text" name="name" placeholder="last Name" maxlength="30" required>
+        <input class="name-input2" id="name1" type="text" name="name" placeholder="First Name" maxlength="30" required>
+        <!-- <input class="name-input2" id="name1" type="text" name="name" placeholder="last Name" maxlength="30" required> -->
       </div>
         <div class="namemes"> 
         <div class="line3-1"></div>
@@ -161,8 +161,8 @@
         <input class ="email-input2" id="text1" type="email" name="Email" placeholder="Email Address" required>
         <label id="ibitext"></label>
         <div class="line3-2"></div>
-        <textarea class="msg-input2" name="Message" placeholder="Hello we love to here from you" maxlength="500" required cols="30" rows="10"></textarea>
-        <button onclick="validate()" class="form-btn2" type="submit">Get in touch</button>
+        <textarea class="msg-input2" id="msg"name="Message" placeholder="Hello we love to here from you" maxlength="500" required cols="30" rows="10"></textarea>
+        <button class="form-btn2" type="submit">Get in touch</button>
     </form>
   </article>
 </section>
