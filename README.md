@@ -38,6 +38,9 @@ Kennedy Omondi
 
 GitHub @kennankole
 
+## Author3:
+GitHub @TechnoAndy
+
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
