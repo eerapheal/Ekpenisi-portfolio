@@ -253,33 +253,6 @@ function dissappearParent(e) {
 }
 parentModal.addEventListener('click', dissappearParent);
 
-// storing data to clud local storage done with my partner andrea work.
-
-// const formName = document.getElementById('name1');
-// const email = document.getElementById('text1');
-// const formText = document.getElementById('msg');
-
-// function autoFill() {
-//   const storageObj = {
-//     name: localStorage.setItem('customerName', formName.value),
-//     email: localStorage.setItem('customerEmail', email.value),
-//     customerInfo: localStorage.setItem('customerInfo', formText.value),
-//   };
-//   return storageObj;
-// }
-
-// formName.value = localStorage.getItem('customerName');
-// email.value = localStorage.getItem('customerEmail');
-// formText.value = localStorage.getItem('customerInfo');
-
-// autoFill();
-
-// formName.onchange = autoFill;
-// email.onchange = autoFill;
-// formText.onchange = autoFill;
-
-// Full form validation person project
-
 function showMessage(input, message, type) {
   const msg = input.parentNode.querySelector('small');
   msg.style.visibility = 'visible';
