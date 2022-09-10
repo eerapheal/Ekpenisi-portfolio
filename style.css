@@ -10,6 +10,10 @@
   font-family: 'inter', sans-serif;
 }
 
+.error-msg {
+  color: #f00;
+}
+
 .modal-header {
   display: flex;
   justify-content: space-between;
