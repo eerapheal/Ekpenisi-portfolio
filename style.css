@@ -60,7 +60,7 @@
   transform: translate(-50%, -50%);
   z-index: 10;
   background-color: #fff;
-  width: 320px;
+  width: 93vw;
   height: 99vh;
   border: 1px solid #dfe1e6;
   animation: 1s drop;
@@ -69,7 +69,7 @@
 
 @keyframes drop {
   0% {
-    top: -100px;
+    top: 100px;
   }
 
   100% {
