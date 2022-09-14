@@ -1,3 +1,6 @@
+## Getting starting
+This repository includes files with plain HTML CSS AND JAVASCRIPTS.
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ![](./images/WhatsApp%20Image%202022-08-18%20at%206.32.03%20AM.jpeg)
@@ -37,6 +40,9 @@ LinkedIn: (https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
 Kennedy Omondi
 
 GitHub @kennankole
+
+## Author3:
+GitHub @TechnoAndy
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

@@ -1,3 +1,5 @@
+// hamburger menu to click and onclick dropdown menu items.
+
 const hamburger = document.querySelector('.ambuger');
 const navItem = document.querySelector('.nav-item');
 
@@ -11,7 +13,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navItem.classList.remove('active');
 }));
 
-// pop-up window
+// pop-up window in my see project section done with two javascript method.
 
 function displayProjects() {
   const div = document.getElementById('projects');
