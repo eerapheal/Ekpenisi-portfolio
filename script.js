@@ -11,8 +11,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navItem.classList.remove('active');
 }));
 
-// Local storage 
-
+// Local storag
 const formName = document.getElementById('name1');
 const email = document.getElementById('text1');
 const formText = document.getElementById('msg');
