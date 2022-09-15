@@ -1,3 +1,6 @@
+## Getting starting
+This repository includes files with plain HTML CSS AND JAVASCRIPTS.
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ![](./images/WhatsApp%20Image%202022-08-18%20at%206.32.03%20AM.jpeg)
