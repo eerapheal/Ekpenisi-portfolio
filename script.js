@@ -15,7 +15,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 
 // pop-up window in my see project section done with two javascript method.
 
-// Form validation
+// Email and full Form validation 
 function showMessage(input, message, type) {
   const msg = input.parentNode.querySelector('small');
   msg.style.visibility = 'visible';
