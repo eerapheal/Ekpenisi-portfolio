@@ -55,11 +55,13 @@
   align-items: center;
   text-align: center;
   color: #fff;
+  padding-right: 60px;
 }
 
 .ambuger {
   display: none;
   cursor: pointer;
+  margin-left: 120px;
 }
 
 .aambuger-bar {
