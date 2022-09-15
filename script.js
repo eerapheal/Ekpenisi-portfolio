@@ -1,3 +1,5 @@
+// hamburger menu to click and onclick dropdown menu items.
+
 const hamburger = document.querySelector('.ambuger');
 const navItem = document.querySelector('.nav-item');
 
