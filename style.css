@@ -922,10 +922,6 @@
     transition-duration: 1ms;
   }
 
-  body {
-    /* width: 100%; */
-  }
-
   #nav-bar {
     display: none;
   }
@@ -1365,11 +1361,7 @@
     gap: 15px;
     padding: 0 20px;
   }
-
-  .second-sec {
-    /* padding: 126px 84px; */
-  }
-
+  
   .pro {
     padding: 0 20px;
     width: 295px;
