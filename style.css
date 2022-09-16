@@ -294,7 +294,7 @@
 #htmlPage {
   padding: 0 25px;
   margin-bottom: 120px;
-} 
+}
 
 .second-subtittle {
   font-family: 'Crete Round', sans-serif;
@@ -328,6 +328,7 @@
 .igmnoe {
   float: right;
 }
+
 .multi-btn {
   display: flex;
   flex-direction: row;
@@ -339,14 +340,11 @@
   margin-bottom: 23px;
 }
 
-
 .multi-btn li {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  /* width: 70px;
-  height: 40px; */
   background-color: #fff;
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
@@ -354,8 +352,8 @@
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
-  /* margin-right: 24px; */
 }
+
 .css-btn {
   display: flex;
   flex-direction: row;
@@ -1160,58 +1158,51 @@
 
   .header-pro:nth-child(1) {
     background: url(./images/Imgplaceholder.png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
     width: 367px;
-    text-align: hidden;
   }
-  
+
   .header-pro:nth-child(2) {
     background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder1.png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
     width: 367px;
-    text-align: hidden;
   }
-  
+
   .header-pro:nth-child(3) {
     background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder2.png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
     width: 367px;
-    text-align: hidden;
   }
-  
+
   .header-pro:nth-child(4) {
     background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder.png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
     width: 367px;
-    text-align: hidden;
   }
-  
+
   .header-pro:nth-child(5) {
     background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder1.png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
     width: 367px;
-    text-align: hidden;
   }
-  
+
   .header-pro:nth-child(6) {
     background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder2.png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
     width: 367px;
-    text-align: hidden;
   }
-  
 }
 
 @media all and (min-width: 1200px) {

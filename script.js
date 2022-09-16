@@ -51,8 +51,6 @@ function displayProjects() {
 
 displayProjects();
 
-const homeCard = document.getElementById('htmlPage');
-
 const projects = [
   {
     projectID: 1,
@@ -133,16 +131,15 @@ for (let index = 0; index < projects.length; index += 1) {
 
   const btnSeeProject = document.createElement('button');
   const btnText = document.createTextNode('See project');
-  btnSeeProject.setAttribute('class', 'buttons pro-btn');
+  btnSeeProject.setAttribute('class', 'buttons');
   btnSeeProject.setAttribute('id', `btnSeeProject${project.projectID}`);
-  btnSeeProject.setAttribute('id', project.projectID , 'htmlPage');
+  btnSeeProject.setAttribute('id', project.projectID);
   btnSeeProject.appendChild(btnText);
   divProject.appendChild(btnSeeProject);
 
   //  Add div to dinamicProjects
   htmlPage.appendChild(divProject);
 }
-
 
 const modalInformation = {
   heading1: 'Multi Post Stories',
@@ -244,22 +241,15 @@ button2.innerHTML = modalInformation.button2;
 div13.appendChild(button2);
 
 const parentModal = document.querySelector('.modal');
-
+// const openModalButtons = document.querySelector('multi-btn');
 const closeModalButtons = document.querySelector('.close-button');
 function appear() {
   parentModal.style.display = 'block';
 }
-
+// openModalButtons.addEventListener('click', appear);
 appear();
 function disappear() {
   parentModal.style.display = 'none';
 }
 
 closeModalButtons.addEventListener('click', disappear);
-
-function dissappearParent(e) {
-  if (e.target.className === '.modal') {
-    parentModal.style.display = 'none';
-  }
-}
-parentModal.addEventListener('click', dissappearParent);
