@@ -253,3 +253,4 @@ function disappear() {
 }
 
 closeModalButtons.addEventListener('click', disappear);
+
