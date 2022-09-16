@@ -131,7 +131,7 @@ for (let index = 0; index < projects.length; index += 1) {
 
   const btnSeeProject = document.createElement('button');
   const btnText = document.createTextNode('See project');
-  btnSeeProject.setAttribute('class', 'buttons');
+  btnSeeProject.setAttribute('class', 'buttons pro-btn');
   btnSeeProject.setAttribute('id', `btnSeeProject${project.projectID}`);
   btnSeeProject.setAttribute('id', project.projectID);
   btnSeeProject.appendChild(btnText);
