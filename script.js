@@ -16,9 +16,9 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 // pop-up window in my see project section done with two javascript method.
 
 function displayProjects() {
-  const div = document.getElementById('projects');
+  const div = document.getElementById('projectAera');
   div.innerHTML = `
-  <section id="profesion" class="second-sec">
+  <section  class="second-sec">
   <div id ="my-recnt">
   <h3 class="second-tittle">
     My Recent Works
@@ -46,92 +46,103 @@ function displayProjects() {
   </div>
 </div>
 </div>
-<div class="grid" onclick="appear()">
-     
-      <div >
-        <div  class="header-pro grid-1">
-          <h4 class="pro">Profesional Art Printing Data</h4>
-          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-          been the industry's standard</p>
-          <ul class="pro-ul ulnon">
-            <li class="pro-html">html</li>
-            <li class="pro-boot">bootsrap</li>
-            <li class="pro-rubby">Ruby</li>
-          </ul>
-          <button class="medium" type="button">See Project</button> 
-        </div>
-        <button class="pro-btn" type="button">See Project</button> 
-      </div>  
-      <div>
-        <div  class="header-pro grid-2">
-          <h4 class="pro">Profesional Art Printing Data</h4>
-          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-          been the industry's standard</p>
-          <ul class="pro-ul">
-            <li class="pro-html">html</li>
-            <li class="pro-boot">bootsrap</li>
-            <li class="pro-rubby">Ruby</li>
-          </ul>
-        </div>
-        <button class="pro-btn" type="button">See Project</button> 
-      </div>  
-      <div>
-        <div  class="header-pro grid-3">
-          <h4 class="pro">Profesional Art Printing Data</h4>
-          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-          been the industry's standard</p>
-          <ul class="pro-ul">
-            <li class="pro-html">html</li>
-            <li class="pro-boot">bootsrap</li>
-            <li class="pro-rubby">Ruby</li>
-          </ul>
-        </div>
-        <button class="pro-btn" type="button">See Project</button> 
-      </div>  
-      <div>
-        <div  class="header-pro grid-1">
-          <h4 class="pro">Profesional Art Printing Data</h4>
-          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-          been the industry's standard</p>
-          <ul class="pro-ul">
-            <li class="pro-html">html</li>
-            <li class="pro-boot">bootsrap</li>
-            <li class="pro-rubby">Ruby</li>
-          </ul>
-        </div>
-        <button class="pro-btn" type="button">See Project</button> 
-      </div>  
-      <div>
-        <div  class="header-pro grid-2">
-          <h4 class="pro">Profesional Art Printing Data</h4>
-          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-          been the industry's standard</p>
-          <ul class="pro-ul">
-            <li class="pro-html">html</li>
-            <li class="pro-boot">bootsrap</li>
-            <li class="pro-rubby">Ruby</li>
-          </ul>
-        </div>
-        <button class="pro-btn" type="button">See Project</button> 
-      </div>  
-      <div>
-        <div  class="header-pro grid-3">
-          <h4 class="pro">Profesional Art Printing Data</h4>
-          <p class="pro-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-          been the industry's standard</p>
-          <ul class="pro-ul">
-            <li class="pro-html">html</li>
-            <li class="pro-boot">bootsrap</li>
-            <li class="pro-rubby">Ruby</li>
-          </ul>
-        </div>
-        <button class="pro-btn" type="button">See Project</button> 
-      </div>
-    </div>;
-    </section>`;
+</section>`;
 }
 
 displayProjects();
+
+const homeCard = document.getElementById('htmlPage');
+
+const projects = [
+  {
+    projectID: 1,
+    name: 'Proffesional art printing data',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
+    featuredImageBig: 'images/firstprojectbig.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+  },
+  {
+    projectID: 2,
+    name: 'Data Dashboard Healthcare',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    featuredImage: 'images/firstprojectbig.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+  },
+  {
+    projectID: 3,
+    name: 'Website Protfolio',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    featuredImage: 'images/firstprojectbig.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+  },
+  {
+    projectID: 4,
+    name: 'Profesional Art Printing Data',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    featuredImage: 'images/firstprojectbig.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+  },
+  {
+    projectID: 5,
+    name: 'Data Dashboard Healthcare',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    featuredImage: 'images/firstprojectbig.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+  },
+  {
+    projectID: 6,
+    name: 'Website Protfolio',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    featuredImage: 'images/Imgplaceholder1.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+  },
+];
+
+//  CARDS BEING GENERATED=
+for (let index = 0; index < projects.length; index += 1) {
+  const project = projects[index];
+  //  Div projects
+  const divProject = document.createElement('div');
+  divProject.setAttribute('class', 'projects header-pro');
+
+  //  title
+  const projectName = document.createElement('h2');
+  projectName.setAttribute('class', 'pro');
+  const projectNameText = document.createTextNode(project.name);
+  projectName.appendChild(projectNameText);
+  divProject.appendChild(projectName);
+
+  //  description
+  const descriptionTag = document.createElement('p');
+  descriptionTag.setAttribute('class', 'pro-p');
+  const descriptionText = document.createTextNode(project.description);
+  descriptionTag.appendChild(descriptionText);
+  divProject.appendChild(descriptionTag);
+
+  //  Technologis ul
+  const techUl = document.createElement('ul');
+  techUl.setAttribute('class', 'multi-btn');
+  const techs = project.technologies;
+  techs.forEach((tech) => {
+    const liTech = document.createElement('li');
+    const liText = document.createTextNode(tech);
+    liTech.appendChild(liText);
+    techUl.appendChild(liTech);
+    divProject.appendChild(techUl);
+  });
+
+  const btnSeeProject = document.createElement('button');
+  const btnText = document.createTextNode('See project');
+  btnSeeProject.setAttribute('class', 'buttons pro-btn');
+  btnSeeProject.setAttribute('id', `btnSeeProject${project.projectID}`);
+  btnSeeProject.setAttribute('id', project.projectID , 'htmlPage');
+  btnSeeProject.appendChild(btnText);
+  divProject.appendChild(btnSeeProject);
+
+  //  Add div to dinamicProjects
+  htmlPage.appendChild(divProject);
+}
+
 
 const modalInformation = {
   heading1: 'Multi Post Stories',
