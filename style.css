@@ -12,7 +12,7 @@
   z-index: 10;
   background-color: #fff;
   width: 320px;
-  min-height: 95%;
+  min-height: 565px;
   border: 1px solid #dfe1e6;
   animation: 1s drop;
   display: none;
@@ -28,7 +28,6 @@
     top: 50%;
   }
 }
-
 
 .modal-headd {
   display: none;
@@ -56,8 +55,6 @@
     top: 50%;
   }
 }
-
-
 
 .live-button {
   background-color: #ff6b00;
@@ -107,7 +104,7 @@
   align-items: center;
   padding: 10px 15px;
   border: 1px solid #8993a4;
-  margin:  4px;
+  margin: 4px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -141,7 +138,7 @@
   flex-direction: row;
   align-items: center;
   font-family: "Inter", sans-serif;
-  font-style: normal; 
+  font-style: normal;
   margin-top: 5px;
 }
 
@@ -1279,7 +1276,6 @@
   .modal-mobile {
     display: none;
   }
-
 
   .modal-button {
     margin-left: 580px;
