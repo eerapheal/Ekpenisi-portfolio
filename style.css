@@ -11,16 +11,12 @@
   transform: translate(-50%, -50%);
   z-index: 10;
   background-color: #fff;
-
-  /* overflow-y: scroll; */
-
-  /* padding: 5%; */
-  width: 90vw;
-  min-height: 95vh;
+  width: 320px;
+  min-height: 95%;
   border: 1px solid #dfe1e6;
   animation: 1s drop;
   display: none;
-  padding: 0 20px;
+  padding: 0 8px;
 }
 
 @keyframes drop {
@@ -33,14 +29,6 @@
   }
 }
 
-/* .title {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 44px;
-  color: #172b4d;
-  margin: 24px;
-} */
 
 .modal-headd {
   display: none;
@@ -49,12 +37,12 @@
 .close-button {
   cursor: pointer;
   outline: none;
-  margin-right: 24px;
+  margin-right: 4px;
   background-color: #fff;
   border: none;
   font-size: 30px;
   transition: 200ms ease-in-out;
-  margin-bottom: 44px;
+  margin-bottom: 20px;
   animation: 1s dropout;
 }
 
@@ -68,56 +56,7 @@
   }
 }
 
-/* .modal-social {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  padding-left: 24px;
-  font-weight: 600;
-  margin-top: -15px;
-} */
 
-/* .modal-pic {
-  display: flex;
-  flex-direction: column;
-  background-image: url(./images/SnapshootPortfolio.png);
-  background-repeat: no-repeat;
-  background-size: 90% 100%;
-  margin-top: 10px;
-  margin-left: 24px;
-} */
-
-/* .modal-body {
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
-  max-width: 310px;
-  line-height: 22px;
-  height: 5px;
-  color: #344563;
-  margin-top: 150px;
-} */
-
-/* .modal-mobile {
-  margin-top: 30px;
-}
-
-.modal-desktop {
-  display: none;
-}
-
-.modal-button {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  padding-top: 5px;
-  max-width: 350px;
-  height: 580px;
-  margin-left: 24px;
-  align-items: center;
-} */
 
 .live-button {
   background-color: #ff6b00;
@@ -143,7 +82,7 @@
   font-size: 13px;
   display: flex;
   text-align: center;
-  padding: 10px 13px;
+  padding: 10px 11px;
   gap: 15px;
 }
 
@@ -163,48 +102,18 @@
   color: #f00;
 }
 
-/* .modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 .modal-social li {
   align-items: center;
   padding: 10px 15px;
   border: 1px solid #8993a4;
-  margin: 0 4px;
+  margin:  4px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 13px;
   color: #3c3a39;
   text-align: center;
 }
-
-/* .live-button {
-  background-color: #ff6b00;
-  border: none;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-size: 13px;
-  display: flex;
-  text-align: center;
-  padding: 8px 13px;
-  gap: 25px;
-} */
-
-/* .source-button {
-  background-color: #ff6b00;
-  border: none;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-size: 13px;
-  display: flex;
-  text-align: center;
-  padding: 9px 12px;
-  gap: 15px;
-} */
 
 @keyframes drop {
   0% {
@@ -221,31 +130,18 @@
   font-style: normal;
   color: #172b4d;
   margin-bottom: 30px;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 700;
 }
-
-/* .modal-headd {
-  display: none;
-} */
-
-/* .close-button {
-  cursor: pointer;
-  outline: none;
-  background-color: #fff;
-  font-style: normal;
-  border: none;
-  font-size: 25px;
-  color: #67798e;
-  transition: 200ms ease-in-out;
-} */
 
 .modal-social {
   display: flex;
   flex-direction: row;
   align-items: center;
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  margin-top: 15px;
+  font-style: normal; 
+  margin-top: 5px;
 }
 
 .modal-pic {
@@ -253,23 +149,17 @@
   flex-direction: column;
   background-image: url(./images/SnapshootPortfolio.png);
   background-repeat: no-repeat;
-  margin-top: 20px;
-  height: 220px;
-}
-
-.modal-body {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  color: #344563;
+  margin-top: 14px;
+  height: 200px;
 }
 
 .modal-mobile {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-size: 13px;
+  font-size: 14px;
   color: #344563;
-  margin-top: 235px;
+  margin-top: 210px;
+  width: 300px;
 }
 
 .modal-desktop {
@@ -280,7 +170,7 @@
   display: flex;
   flex-direction: row;
   gap: 15px;
-  margin-top: 116px;
+  margin-top: 166px;
   align-items: center;
 }
 
@@ -1346,7 +1236,7 @@
     display: flex;
     flex-direction: row;
     background-size: 55% 100%;
-    height: 390px;
+    height: 380px;
     margin-top: 30px;
   }
 
@@ -1387,9 +1277,10 @@
     display: none;
   }
 
+
   .modal-button {
     margin-left: 690px;
-    margin-top: -40px;
+    margin-top: -45px;
   }
 
   .img-desk {
