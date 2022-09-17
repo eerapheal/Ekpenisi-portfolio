@@ -85,6 +85,8 @@ for (let index = 0; index < projects.length; index += 1) {
   divProject.appendChild(btnSeeProject);
 
   //  Add div to dinamicProjects
+  const htmlPage = document.getElementById('htmlPage');
+
   htmlPage.appendChild(divProject);
 }
 

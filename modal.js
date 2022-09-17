@@ -98,14 +98,8 @@ button2.innerHTML = modalInformation.button2;
 div13.appendChild(button2);
 
 const parentModal = document.querySelector('.modal');
-
+const openModalButtons = document.querySelector('pro-btn');
 const closeModalButtons = document.querySelector('.close-button');
-
-function appear() {
-  parentModal.style.display = 'block';
-}
-
-//   openModalButtons.addEventListener('click', appear);
 
 function disappear() {
   parentModal.style.display = 'none';
@@ -113,9 +107,25 @@ function disappear() {
 
 closeModalButtons.addEventListener('click', disappear);
 
-function dissappearParent(e) {
-  if (e.target.className === '.modal') {
-    parentModal.style.display = 'none';
-  }
+function appear() {
+  parentModal.style.display = 'block';
 }
-parentModal.addEventListener('click', dissappearParent);
+
+// appear();
+
+openModalButtons.addEventListener('onclick', appear);
+
+// function dissappearParent(e) {
+//   if (e.target.className === '.modal') {
+//     parentModal.style.display = 'none';
+//   }
+// }
+// parentModal.addEventListener('click', dissappearParent);
+
+// const parentModal = document.getElementsByClassName('modal');
+// const closeBtn = document.getElementsByClassName('close-button');
+// const openbtn = document.getElementsByClassName('multi-btn');
+
+// openbtn.addEventListener('click', () => {
+//   parentModal.className('modal')
+// });

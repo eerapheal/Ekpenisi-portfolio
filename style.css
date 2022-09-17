@@ -39,10 +39,11 @@
   outline: none;
   margin-right: 4px;
   background-color: #fff;
+  color: #67798e;
   border: none;
   font-size: 30px;
   transition: 200ms ease-in-out;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   animation: 1s dropout;
 }
 
@@ -1228,16 +1229,18 @@
 
 @media all and (min-width: 1200px) {
   .modal {
-    width: 1200px;
-    height: 95vh;
+    width: 1150px;
+    height: 80vh;
+    padding: 0 19px;
   }
 
   .modal-pic {
     display: flex;
     flex-direction: row;
     background-size: 55% 100%;
-    height: 380px;
+    height: 340px;
     margin-top: 30px;
+    width: 990px;
   }
 
   .modal-header22 {
@@ -1270,7 +1273,7 @@
     width: 475px;
     font-size: 18px;
     line-height: 30px;
-    margin-left: 680px;
+    margin-left: 580px;
   }
 
   .modal-mobile {
@@ -1279,7 +1282,7 @@
 
 
   .modal-button {
-    margin-left: 690px;
+    margin-left: 580px;
     margin-top: -45px;
   }
 
