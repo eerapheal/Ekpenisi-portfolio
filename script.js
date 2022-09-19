@@ -50,6 +50,9 @@ for (let index = 0; index < projects.length; index += 1) {
   const divProject = document.createElement('div');
   divProject.setAttribute('class', 'projects header-pro');
 
+  const me = document.createElement('div');
+  
+
   //  title
   const projectName = document.createElement('h2');
   projectName.setAttribute('class', 'pro');
