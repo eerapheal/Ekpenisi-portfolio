@@ -36,7 +36,7 @@ formName.onchange = autoFill;
 email.onchange = autoFill;
 formText.onchange = autoFill;
 
-// Email and full Form validation 
+// Email and full Form validation
 function showMessage(input, message, type) {
   const msg = input.parentNode.querySelector('small');
   msg.style.visibility = 'visible';

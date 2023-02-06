@@ -48,7 +48,7 @@ for (let index = 0; index < projects.length; index += 1) {
   const project = projects[index];
   //  Div projects
   const divProject = document.createElement('div');
-  divProject.setAttribute('class', 'projects header-pro');
+  divProject.setAttribute('class', 'header-pro');
 
   //  title
   const projectName = document.createElement('h2');
@@ -79,8 +79,6 @@ for (let index = 0; index < projects.length; index += 1) {
   const btnSeeProject = document.createElement('button');
   const btnText = document.createTextNode('See project');
   btnSeeProject.setAttribute('class', 'buttons pro-btn');
-  btnSeeProject.setAttribute('id', `btnSeeProject${project.projectID}`);
-  btnSeeProject.setAttribute('id', project.projectID);
   btnSeeProject.appendChild(btnText);
   divProject.appendChild(btnSeeProject);
 
@@ -93,7 +91,8 @@ for (let index = 0; index < projects.length; index += 1) {
 function displayProjects() {
   const div = document.getElementById('projectAera');
   div.innerHTML = `
-  <section  class="second-sec">
+  <section>
+  <div  id="second-sec">
   <div id ="my-recnt">
   <h3 class="second-tittle">
     My Recent Works
@@ -101,15 +100,21 @@ function displayProjects() {
   <hr class="line2">
 </div>
 <div id="multi">
+ <div>
   <img class="img-desk" width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+  </div>
+  <div>
   <img class="img-desk2" width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+  </div>
   <div class="post">
-  <h3 class="second-subtittle">
-    Multi-Post Stories
-  </h3>
-  <p class="second-p">
-    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-  </p>
+    <h3 class="second-subtittle">
+      Multi-Post Stories
+    </h3>
+  <div id="second-p">
+    <p class="second-p">
+      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+    </p>
+  </div>
   <div onclick="appear()">
     <ul class="list-btn">
       <li class="css-btn">css</li>
@@ -117,15 +122,17 @@ function displayProjects() {
       <li class="boot-btn">bootsrap</li>
       <li class="ruby-btn">ruby</li>
     </ul>
+    <div class="projectBtn">
     <button class="btn-top" onclick="appear()" type="button">See projests</button>
+    </div>
   </div>
+</div>
 </div>
 </div>
 </section>`;
 }
 
 displayProjects();
-
 
 const modalInformation = {
   heading1: 'Multi Post Stories',
