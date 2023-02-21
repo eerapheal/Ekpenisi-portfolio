@@ -941,9 +941,6 @@
   display: none;
 }
 
-/* desktop version  */
-
-@media (max-width: 768px) {
   .ambuger {
     display: block;
     cursor: pointer;
@@ -960,7 +957,6 @@
   .ambuger.active .aambuger-bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-}
 
 @media all and (min-width: 768px) {
   .img-desk {
