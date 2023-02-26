@@ -1211,7 +1211,7 @@
   }
 
   .header-pro:nth-child(1) {
-    background: url(./images/Imgplaceholder.png);
+    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/awsome-book.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
@@ -1219,7 +1219,7 @@
   }
 
   .header-pro:nth-child(2) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder1.png);
+    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/math-app.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
@@ -1227,7 +1227,7 @@
   }
 
   .header-pro:nth-child(3) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder2.png);
+    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/todo-list.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;

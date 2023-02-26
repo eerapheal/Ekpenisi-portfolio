@@ -1,27 +1,27 @@
 const projects = [
   {
     projectID: 1,
-    name: 'Proffesional art printing data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
+    name: 'awesomebook Applicaion',
+    description: 'This website allows users to store data in local storage and the datas can be edited, updated and deleted as well from the webpage.',
     featuredImageBig: 'images/firstprojectbig.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    url: 'https://example.com/project1'
+    technologies: ['html', 'CSS', 'JavaScripts'],
+    url: 'https://eerapheal.github.io/awesomebook-ES6/'
   },
   {
     projectID: 2,
-    name: 'Data Dashboard Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    name: 'Mathematician Application',
+    description: 'This is a Math App project That allows users to carry out calculation operations and it was as a single page aplication.',
     featuredImage: 'images/firstprojectbig.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    url: 'https://example.com/project2'
+    technologies: ['html', 'CSS', 'React.js'],
+    url: 'https://glowing-naiad-81e0ba.netlify.app/'
   },
   {
     projectID: 3,
-    name: 'Website Protfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    name: 'To-do-list Application',
+    description: 'Users can create a task, read tasks, update tasks, delete a task, check completed tasks and delete all checked tasks',
     featuredImage: 'images/firstprojectbig.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    url: 'https://example.com/project3'
+    technologies: ['html', 'CSS', 'JavaScripts'],
+    url: 'https://eerapheal.github.io/toDolist/dist/'
   },
   {
     projectID: 4,
@@ -93,7 +93,7 @@ for (let index = 0; index < projects.length; index += 1) {
   htmlPage.appendChild(divProject);
 }
 
-function displayProjects() {
+async function displayProjects() {
   const div = document.getElementById('projectAera');
   div.innerHTML = `
   <section>
