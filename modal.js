@@ -5,6 +5,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImageBig: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project1'
   },
   {
     projectID: 2,
@@ -12,6 +13,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project2'
   },
   {
     projectID: 3,
@@ -19,6 +21,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project3'
   },
   {
     projectID: 4,
@@ -26,6 +29,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project4'
   },
   {
     projectID: 5,
@@ -33,6 +37,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project5'
   },
   {
     projectID: 6,
@@ -40,31 +45,27 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/Imgplaceholder1.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project6'
   },
 ];
 
-//  CARDS BEING GENERATED=
 for (let index = 0; index < projects.length; index += 1) {
   const project = projects[index];
-  //  Div projects
   const divProject = document.createElement('div');
   divProject.setAttribute('class', 'header-pro');
 
-  //  title
   const projectName = document.createElement('h2');
   projectName.setAttribute('class', 'pro');
   const projectNameText = document.createTextNode(project.name);
   projectName.appendChild(projectNameText);
   divProject.appendChild(projectName);
 
-  //  description
   const descriptionTag = document.createElement('p');
   descriptionTag.setAttribute('class', 'pro-p');
   const descriptionText = document.createTextNode(project.description);
   descriptionTag.appendChild(descriptionText);
   divProject.appendChild(descriptionTag);
 
-  //  Technologis ul
   const techUl = document.createElement('ul');
   techUl.setAttribute('class', 'multi-btn');
   const techs = project.technologies;
@@ -79,12 +80,16 @@ for (let index = 0; index < projects.length; index += 1) {
   const btnSeeProject = document.createElement('button');
   const btnText = document.createTextNode('See project');
   btnSeeProject.setAttribute('class', 'buttons pro-btn');
-  btnSeeProject.appendChild(btnText);
+  
+  // create an "a" element and set its href attribute to the project's url property
+  const aLink = document.createElement('a');
+  aLink.setAttribute('href', project.url);
+  aLink.appendChild(btnText);
+  btnSeeProject.appendChild(aLink);
+  
   divProject.appendChild(btnSeeProject);
 
-  //  Add div to dinamicProjects
   const htmlPage = document.getElementById('htmlPage');
-
   htmlPage.appendChild(divProject);
 }
 
