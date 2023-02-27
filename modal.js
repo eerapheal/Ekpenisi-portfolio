@@ -128,7 +128,17 @@ async function displayProjects() {
       <li class="ruby-btn">ruby</li>
     </ul>
     <div class="projectBtn">
-    <button class="btn-top" onclick="appear()" type="button">See projests</button>
+    <button type="button" class="btn-top" onclick="appear()" type="button"">
+    <strong>See projests</strong>
+    <div id="container-stars">
+      <div id="stars"></div>
+    </div>
+  
+    <div id="glow">
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+  </button>
     </div>
   </div>
 </div>

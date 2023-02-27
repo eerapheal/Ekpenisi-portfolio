@@ -57,7 +57,7 @@
 }
 
 .ambuger {
-  display: none;
+  display: block;
   cursor: pointer;
 }
 
@@ -305,18 +305,68 @@
 
 .btn-top {
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 12px;
-  width: 129px;
-  height: 48px;
-  background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  border: none;
+  width: 13rem;
+  height: 3rem;
   margin-top: 25px;
+  background-size: 300% 300%;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+  transition: 0.5s;
+  animation: gradient_301 5s ease infinite;
+  border: double 4px transparent;
+  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #ffdb3b 10%, #fe53bb 45%, #8f51ea 67%, #04f 87%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+#container-stars {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+}
+
+strong {
+  z-index: 2;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #fff;
+  text-shadow: 0 0 4px white;
+}
+
+#glow {
+  position: absolute;
+  display: flex;
+  width: 12rem;
+}
+
+.circle {
+  width: 100%;
+  height: 30px;
+  filter: blur(2rem);
+  animation: pulse_3011 4s infinite;
+  z-index: -1;
+}
+
+.circle:nth-of-type(1) {
+  background: rgba(254, 83, 186, 0.636);
+}
+
+.circle:nth-of-type(2) {
+  background: rgba(142, 81, 234, 0.704);
+}
+
+.btn-top:hover #container-stars {
+  z-index: 1;
+  background-color: #212121;
+  transform: scale(1.1);
 }
 
 #htmlPage {
@@ -400,15 +450,72 @@
 }
 
 .pro-btn {
-  width: 327px;
-  height: 48px;
-  border: none;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
+  --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+  --border-width: 0.125em;
+  --curve-size: 0.5em;
+  --blur: 30px;
+  --bg: #080312;
+  --color: #afffff;
+
+  color: var(--color);
+
+  /* use position: relative; so that BG is only for .btn */
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  place-content: center;
+  padding: 0.5em 1.5em;
   font-size: 17px;
-  line-height: 24px;
-  color: #fff;
+  border: 0;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 6);
+  transition: color 250ms;
+}
+
+.pro-btn::after,
+.pro-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.pro-btn::before {
+  background: var(--border-color);
+  background-size: 300% 300%;
+  animation: move-bg7234 5s ease infinite;
+  z-index: -2;
+}
+
+@keyframes move-bg7234 {
+  0% {
+    background-position: 31% 0%;
+  }
+
+  50% {
+    background-position: 70% 100%;
+  }
+
+  100% {
+    background-position: 31% 0%;
+  }
+}
+
+.pro-btn::after {
+  background: var(--bg);
+  z-index: -1;
+  clip-path:
+    polygon(
+      var(--border-width)
+      calc(var(--curve-size) + var(--border-width) * 0.5),
+      calc(var(--curve-size) + var(--border-width) * 0.5) var(--border-width),
+      calc(100% - var(--border-width))
+      var(--border-width),
+      calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
+      var(--border-width) calc(100% - var(--border-width))
+    );
+  transition: clip-path 500ms;
 }
 
 .third-sec {
@@ -452,22 +559,94 @@
 }
 
 .get-btn {
-  margin: 0 24px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  width: 161px;
-  height: 48px;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
+  --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+  --border-width: 0.125em;
+  --curve-size: 0.5em;
+  --blur: 30px;
+  --bg: #080312;
+  --color: #afffff;
+
+  color: var(--color);
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  place-content: center;
+  padding: 0.5em 1.5em;
   font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  border: none;
-  margin-top: 12px;
+  border: 0;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  transition: color 250ms;
+}
+
+.get-btn::after,
+.get-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.get-btn::before {
+  background: var(--border-color);
+  background-size: 300% 300%;
+  animation: move-bg7234 5s ease infinite;
+  z-index: -2;
+}
+
+@keyframes move-bg7234 {
+  0% {
+    background-position: 31% 0%;
+  }
+
+  50% {
+    background-position: 70% 100%;
+  }
+
+  100% {
+    background-position: 31% 0%;
+  }
+}
+
+.form-btn2::before {
+  background: var(--border-color);
+  background-size: 300% 300%;
+  animation: move-bg7234 5s ease infinite;
+  z-index: -2;
+}
+
+@keyframes move-bg7234 {
+  0% {
+    background-position: 31% 0%;
+  }
+
+  50% {
+    background-position: 70% 100%;
+  }
+
+  100% {
+    background-position: 31% 0%;
+  }
+}
+
+.form-btn2::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+  z-index: -1;
+  clip-path:
+    polygon(
+      var(--border-width)
+      calc(var(--curve-size) + var(--border-width) * 0.5),
+      calc(var(--curve-size) + var(--border-width) * 0.5) var(--border-width),
+      calc(100% - var(--border-width))
+      var(--border-width),
+      calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
+      var(--border-width) calc(100% - var(--border-width))
+    );
+  transition: clip-path 500ms;
 }
 
 .line2 {
@@ -594,31 +773,142 @@
   margin: 6px;
 }
 
-.pro-btn:hover {
-  color: #ff6b00;
-  background-color: #fff;
-  transition-duration: 2s;
-  border: 1px solid #f55800;
-  margin: 6px;
-  cursor: pointer;
+.pro-btn:where(:hover, :focus)::after {
+  clip-path:
+    polygon(
+      calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - var(--border-width))
+      var(--border-width),
+      calc(100% - var(--border-width))
+      var(--border-width),
+      calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width))
+    );
+  transition: 200ms;
 }
 
-.get-btn:hover {
-  color: #ff6b00;
-  background-color: #fff;
-  transition-duration: 2s;
-  border: 1px solid #f55800;
-  cursor: pointer;
-  margin: 10px;
+.form-btn2:where(:hover, :focus) {
+  color: #fff;
 }
 
-.btn-top:hover {
-  color: #ff6b00;
-  background-color: #fff;
-  transition-duration: 2s;
-  border: 1px solid #f55800;
-  cursor: pointer;
-  margin: 5px;
+.form-btn2:where(:hover, :focus)::after {
+  clip-path:
+    polygon(
+      calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - var(--border-width))
+      var(--border-width),
+      calc(100% - var(--border-width))
+      var(--border-width),
+      calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width))
+    );
+  transition: 200ms;
+}
+
+.btn-top:active {
+  border: double 4px #fe53bb;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  animation: none;
+}
+
+.btn:active .circle {
+  background: #fe53bb;
+}
+
+#stars {
+  position: relative;
+  background: transparent;
+  width: 200rem;
+  height: 200rem;
+}
+
+#stars::after {
+  content: "";
+  position: absolute;
+  top: -10rem;
+  left: -100rem;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#fff 1px, transparent 1%);
+  background-size: 50px 50px;
+  animation: animStarRotate 90s linear infinite;
+}
+
+/* #stars::after {
+  background-image: radial-gradient(#fff 1px, transparent 1%);
+  background-size: 50px 50px;
+} */
+
+#stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 170%;
+  height: 500%;
+  animation: animStar 60s linear infinite;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-135rem);
+  }
+}
+
+@keyframes animStarRotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes gradient_301 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse_3011 {
+  0% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 
 .logo:hover {
@@ -628,14 +918,14 @@
   margin: 6px;
 }
 
-.form-btn2:hover {
+/* .form-btn2:hover {
   color: #ff6b00;
   background-color: #fff;
   transition-duration: 2s;
   border: 1px solid #f55800;
   margin: 6px;
   cursor: pointer;
-}
+} */
 
 /* contact form section */
 
@@ -941,22 +1231,22 @@
   display: none;
 }
 
-  .ambuger {
-    display: block;
-    cursor: pointer;
-  }
+/* .ambuger {
+  display: block;
+  cursor: pointer;
+} */
 
-  .ambuger.active .aambuger-bar:nth-child(2) {
-    opacity: 0;
-  }
+.ambuger.active .aambuger-bar:nth-child(2) {
+  opacity: 0;
+}
 
-  .ambuger.active .aambuger-bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
+.ambuger.active .aambuger-bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
 
-  .ambuger.active .aambuger-bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
+.ambuger.active .aambuger-bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
 
 @media all and (min-width: 768px) {
   .img-desk {
@@ -1678,20 +1968,33 @@
   }
 
   .form-btn2 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
+    --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+    --border-width: 0.125em;
+    --curve-size: 0.5em;
+    --blur: 30px;
+    --bg: #61442f;
+    --color: #6bfafa;
+
+    color: var(--color);
+    position: relative;
+    isolation: isolate;
+    display: inline-grid;
+    place-content: center;
+    padding: 0.5em 1.5em;
     font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    letter-spacing: 0.03em;
-    color: #fff;
-    width: 131px;
-    height: 48px;
-    background: #ff6b00;
-    border: none;
+    border: 0;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    clip-path:
+      polygon(
+        0% var(--curve-size),
+        var(--curve-size) 0,
+        100% 0,
+        100% calc(100% - var(--curve-size)),
+        calc(100% - var(--curve-size)) 100%,
+        0 100%
+      );
+    transition: color 250ms;
   }
 
   .line3-1 {
