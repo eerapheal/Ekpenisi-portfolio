@@ -54,6 +54,7 @@
   align-items: center;
   text-align: center;
   color: #fff;
+  animation: pulse 5s ease-in-out infinite;
 }
 
 .ambuger {
@@ -945,15 +946,6 @@ strong {
   margin: 6px;
 }
 
-/* .form-btn2:hover {
-  color: #ff6b00;
-  background-color: #fff;
-  transition-duration: 2s;
-  border: 1px solid #f55800;
-  margin: 6px;
-  cursor: pointer;
-} */
-
 /* contact form section */
 
 .interested {
@@ -1213,7 +1205,7 @@ strong {
   display: flex;
   padding-top: 80px;
   background-color: #fff;
-  height: 150px;
+  min-height: 700px;
 }
 
 #contactt {
@@ -1277,11 +1269,6 @@ strong {
 .ative {
   display: none;
 }
-
-/* .ambuger {
-  display: block;
-  cursor: pointer;
-} */
 
 .ambuger.active .aambuger-bar:nth-child(2) {
   opacity: 0;
@@ -1399,7 +1386,6 @@ strong {
     gap: 15px;
     padding: 0 20px;
     margin-top: 53px;
-    animation: pulse 2s ease-in-out infinite;
   }
 
   #my-recnt {
