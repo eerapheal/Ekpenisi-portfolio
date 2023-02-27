@@ -1190,10 +1190,10 @@ strong {
   align-items: center;
 }
 
-.form-btn:hover {
-  background-color: #fff5e1;
+.form-btn2:hover {
+  background-color: #f55800;
   border: 1px solid #f55800;
-  color: #f55800;
+  color: #fff;
   transition-duration: 2s;
   cursor: pointer;
   margin-top: 1px;
