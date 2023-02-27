@@ -5,7 +5,7 @@ const projects = [
     description: 'This website allows users to store data in local storage and the datas can be edited, updated and deleted as well from the webpage.',
     featuredImageBig: 'images/firstprojectbig.png',
     technologies: ['html', 'CSS', 'JavaScripts'],
-    url: 'https://eerapheal.github.io/awesomebook-ES6/'
+    url: 'https://eerapheal.github.io/awesomebook-ES6/',
   },
   {
     projectID: 2,
@@ -13,7 +13,7 @@ const projects = [
     description: 'This is a Math App project That allows users to carry out calculation operations and it was as a single page aplication.',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'CSS', 'React.js'],
-    url: 'https://glowing-naiad-81e0ba.netlify.app/'
+    url: 'https://glowing-naiad-81e0ba.netlify.app/',
   },
   {
     projectID: 3,
@@ -21,7 +21,7 @@ const projects = [
     description: 'Users can create a task, read tasks, update tasks, delete a task, check completed tasks and delete all checked tasks',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'CSS', 'JavaScripts'],
-    url: 'https://eerapheal.github.io/toDolist/dist/'
+    url: 'https://eerapheal.github.io/toDolist/dist/',
   },
   {
     projectID: 4,
@@ -29,7 +29,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
-    url: 'https://example.com/project4'
+    url: 'https://example.com/project4',
   },
   {
     projectID: 5,
@@ -37,7 +37,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
-    url: 'https://example.com/project5'
+    url: 'https://example.com/project5',
   },
   {
     projectID: 6,
@@ -45,7 +45,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/Imgplaceholder1.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
-    url: 'https://example.com/project6'
+    url: 'https://example.com/project6',
   },
 ];
 
@@ -80,13 +80,13 @@ for (let index = 0; index < projects.length; index += 1) {
   const btnSeeProject = document.createElement('button');
   const btnText = document.createTextNode('See project');
   btnSeeProject.setAttribute('class', 'buttons pro-btn');
-  
+
   // create an "a" element and set its href attribute to the project's url property
   const aLink = document.createElement('a');
   aLink.setAttribute('href', project.url);
   aLink.appendChild(btnText);
   btnSeeProject.appendChild(aLink);
-  
+
   divProject.appendChild(btnSeeProject);
 
   const htmlPage = document.getElementById('htmlPage');

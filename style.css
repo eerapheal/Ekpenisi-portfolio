@@ -87,7 +87,6 @@
   background-image: url("./images/illustration-header-mobile.png");
   background-position: right bottom;
   background-repeat: no-repeat;
-  min-width: 100vw;
 }
 
 .tittle {
@@ -123,6 +122,37 @@
 
 .newsocial {
   display: flex;
+}
+
+.icon-container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.icon {
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(50%, -50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
 }
 
 #social-media {
@@ -382,7 +412,7 @@ strong {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0) 61.94%), url(./images/Img-Placeholder-pro.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 390px;
+  height: 375px;
   width: 327px;
 }
 
@@ -456,8 +486,8 @@ strong {
   --blur: 30px;
   --bg: #080312;
   --color: #afffff;
-
   color: var(--color);
+  width: 327px;
 
   /* use position: relative; so that BG is only for .btn */
   position: relative;
@@ -545,6 +575,7 @@ strong {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  animation: pulse 3s ease-in-out infinite;
 }
 
 .third-p {
@@ -559,6 +590,8 @@ strong {
 }
 
 .get-btn {
+  margin: 0 25px;
+
   --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
   --border-width: 0.125em;
   --curve-size: 0.5em;
@@ -566,6 +599,7 @@ strong {
   --bg: #080312;
   --color: #afffff;
 
+  cursor: pointer;
   color: var(--color);
   position: relative;
   isolation: isolate;
@@ -702,13 +736,6 @@ strong {
 
 .li-p {
   padding-top: 30px;
-}
-
-#desk-nav ul a:hover {
-  color: #e4e4e2;
-  transition-duration: 3ms;
-  background-color: #3d3c3b;
-  margin: 6px;
 }
 
 .css-btn:hover {
@@ -952,6 +979,7 @@ strong {
   margin-top: 64px;
   padding: 0 24px;
   background-color: #fbf8f7;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 .email-input {
@@ -964,6 +992,7 @@ strong {
   font-style: normal;
   font-size: 15px;
   line-height: 24px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   color: #979493;
   border: none;
   padding: 0 24px;
@@ -980,6 +1009,7 @@ strong {
   width: 327px;
   height: 114px;
   border: none;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   background-color: #fbf8f7;
   padding: 0 24px;
 }
@@ -1176,21 +1206,26 @@ strong {
 .line3 {
   border: 1px solid #e5e5e5;
   height: 1px;
-  width: 331px;
+  width: 327px;
 }
 
 .form-sec {
   display: flex;
-  flex-direction: column;
-  padding: 120px 24px;
+  padding-top: 80px;
   background-color: #fff;
-  height: 1050px;
+  height: 150px;
+}
+
+#contactt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .line4 {
-  border: 1px solid #dfe1e6;
+  border: 1px solid #808081;
   height: 1px;
-  width: 100vw;
   margin-bottom: 29px;
 }
 
@@ -1205,6 +1240,18 @@ strong {
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
 }
 
 #desk-nav {
@@ -1271,11 +1318,13 @@ strong {
   }
 
   #desk-nav {
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 72px;
     background: #3e3c3c;
+    min-width: 100vw;
   }
 
   #desk-nav ul {
@@ -1324,6 +1373,10 @@ strong {
     font-family: 'Crete Round', sans-serif;
   }
 
+  #contactt {
+    display: none;
+  }
+
   .paragh {
     min-height: 132px;
     padding: 0 143px;
@@ -1346,6 +1399,7 @@ strong {
     gap: 15px;
     padding: 0 20px;
     margin-top: 53px;
+    animation: pulse 2s ease-in-out infinite;
   }
 
   #my-recnt {
@@ -1416,7 +1470,7 @@ strong {
   }
 
   .name-input2 {
-    width: 210px;
+    width: 452px;
     height: 48px;
     display: flex;
     align-items: center;
@@ -1429,6 +1483,7 @@ strong {
     margin-top: 64px;
     padding: 0 24px;
     background-color: #fbf8f7;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   }
 
   .email-input2 {
@@ -1441,6 +1496,7 @@ strong {
     font-style: normal;
     font-size: 15px;
     line-height: 24px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     color: #979493;
     border: none;
     padding: 0 24px;
@@ -1457,8 +1513,13 @@ strong {
     width: 452px;
     height: 114px;
     border: none;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     background-color: #fbf8f7;
     padding: 0 24px;
+  }
+
+  .form-btn-div {
+    margin-top: 30px;
   }
 
   .form-btn2 {
@@ -1481,7 +1542,7 @@ strong {
   .line3-1 {
     border: 1px solid #e5e5e5;
     height: 1px;
-    width: 155px;
+    width: 452px;
   }
 
   .line3-2 {
@@ -1634,16 +1695,6 @@ strong {
 
   .newsocial {
     display: none;
-  }
-
-  #desk-nav {
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 72px;
-    background: #3e3c3c;
-    width: 100vw;
   }
 
   #desk-nav ul {
@@ -1922,7 +1973,7 @@ strong {
   }
 
   .name-input2 {
-    width: 310px;
+    width: 652px;
     height: 48px;
     display: flex;
     align-items: center;
@@ -1941,6 +1992,7 @@ strong {
     margin-top: 30px;
     width: 652px;
     height: 48px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     display: flex;
     align-items: center;
     font-family: 'Inter', sans-serif;
@@ -1975,12 +2027,13 @@ strong {
     --bg: #61442f;
     --color: #6bfafa;
 
+    cursor: pointer;
     color: var(--color);
     position: relative;
     isolation: isolate;
     display: inline-grid;
     place-content: center;
-    padding: 0.5em 1.5em;
+    width: 200px;
     font-size: 17px;
     border: 0;
     text-transform: uppercase;
@@ -2000,7 +2053,7 @@ strong {
   .line3-1 {
     border: 1px solid #e5e5e5;
     height: 1px;
-    width: 315px;
+    width: 652px;
   }
 
   .line3-2 {
