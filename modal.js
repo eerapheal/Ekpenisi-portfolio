@@ -265,18 +265,3 @@ function appear() {
 // appear();
 
 openModalButtons.addEventListener('onclick', appear);
-
-// function dissappearParent(e) {
-//   if (e.target.className === '.modal') {
-//     parentModal.style.display = 'none';
-//   }
-// }
-// parentModal.addEventListener('click', dissappearParent);
-
-// const parentModal = document.getElementsByClassName('modal');
-// const closeBtn = document.getElementsByClassName('close-button');
-// const openbtn = document.getElementsByClassName('multi-btn');
-
-// openbtn.addEventListener('click', () => {
-//   parentModal.className('modal')
-// });
