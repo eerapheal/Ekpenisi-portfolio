@@ -14,7 +14,7 @@
             <a href="#homes"><h2 class="logo">Ekpenisi E Raphael</h2></a>
             <ul>
               <li>
-                <a href="#profesion">Portfolio</a>
+                <a href="#htmlPage">Projects</a>
               </li>
               <li>
                 <a href="#aboutus">About</a>
@@ -30,7 +30,7 @@
           <div id="nav-bar">
           <a href="#homes"><h2 class="logo">Ralph03</h2></a>
           <div class="nav-item">
-              <a class="nav-link" href="#profesion">Portfolio</a>
+              <a class="nav-link" href="#htmlPage">Projects</a>
             <hr class="han-line">
               <a class="nav-link" href="#aboutus">About</a>
             <hr class="han-line">
@@ -53,20 +53,22 @@
         <p class="paragh">
           Hi, I'm a Full Stack Developer with expertise in both front-end and back-end technologies. I have a passion for building dynamic and responsive web applications and have experience working with a variety of technologies including HTML, CSS, JavaScript, React/Redux, Postgresql, Ruby and Ruby on Rails. I am comfortable working on both the client and server side of a web application and have a proven track record of delivering high-quality, functional, and user-friendly websites. I am always eager to learn new technologies.
         </p>
-        <div class="newsocial" id="social-media">
-          <a href="github.com/eerapheal/" target="_blank"> <img width="20" height="25" src="images/github.png" alt="GitHub"></a>
-          <a href="linkedin.com/in/ekpenisi-e-raphael/" target="_blank"> <img width="20" height="25" src="images/Linkedinicon.png" alt="Linkedin"></a>
-          <a href="#2" target="_blank"> <img width="20" height="25" src="images/angellist.png" alt="icon"></a>
-          <a href="twitter.com/ekpenisiraphael/" target="_blank"> <img width="20" height="25" src="images/twitter.png" alt="Twitter"></a>
-          <a href="#2" target="_blank"> <img width="20" height="25" src="images/medium.png" alt="icon"></a>
-      </div>
-        <div class="newsocial3" id="social-media3">
-            <a href="github.com/eerapheal/" target="_blank"> <img width="20" height="25" src="./images/github.png" alt="GitHub"></a>
-            <a href="linkedin.com/in/ekpenisi-e-raphael-9678a221a/" target="_blank"> <img width="20" height="25" src="./images/Linkedinicon.png" alt="Linkedin"></a>
-            <a href="#2" target="_blank"> <img width="21" height="24" src="images/angellist.png" alt="icon"></a>
-            <a href="twitter.com/ekpenisiraphael/" target="_blank"> <img width="20" height="25" src="./images/twitter.png" alt="Twitter"></a>
-            <a href="#2" target="_blank"> <img width="20" height="25" src="images/medium.png" alt="icon"></a>
+        <div class="icon-container">
+          <div class="newsocial icon" id="social-media">
+            <a href="github.com/eerapheal/" target="_blank"> <img width="20" height="25" src="images/github.png" alt="GitHub"></a>
+            <a href="linkedin.com/in/ekpenisi-e-raphael-9678a221a/" target="_blank"> <img width="20" height="25" src="images/Linkedinicon.png" alt="Linkedin"></a>
+            <a href="angel.co/u/ekpenisiraphael" target="_blank"> <img width="20" height="25" src="images/angellist.png" alt="icon"></a>
+            <a href="twitter.com/ekpenisiraphael/" target="_blank"> <img width="20" height="25" src="images/twitter.png" alt="Twitter"></a>
+            <a href="medium.com/@ekpenisiraphael/" target="_blank"> <img width="20" height="25" src="images/medium.png" alt="icon"></a>
+          </div>
         </div>
+          <div class="newsocial3" id="social-media3">
+              <a href="github.com/eerapheal/" target="_blank"> <img width="20" height="25" src="./images/github.png" alt="GitHub"></a>
+              <a href="linkedin.com/in/ekpenisi-e-raphael-9678a221a/" target="_blank"> <img width="20" height="25" src="./images/Linkedinicon.png" alt="Linkedin"></a>
+              <a href="angel.co/u/ekpenisiraphael/" target="_blank"> <img width="21" height="24" src="images/angellist.png" alt="icon"></a>
+              <a href="twitter.com/ekpenisiraphael/" target="_blank"> <img width="20" height="25" src="./images/twitter.png" alt="Twitter"></a>
+              <a href="medium.com/@ekpenisiraphael/" target="_blank"> <img width="20" height="25" src="images/medium.png" alt="icon"></a>
+          </div>
       </section>
       
       <!--  -->
@@ -81,7 +83,7 @@
        Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
     </p>
   <div>
-    <button class="get-btn" type="button">Get My Resume</button>
+  <button class="get-btn" type="button">    <a href="https://docs.google.com/document/d/1u0gX-n-Q0kuJSkQ1_0sZbtD8HOhu9C3A971QbklHLgg/edit" download></a>Get My Resume</button>
   </div>
   </div>
   <div>
@@ -151,9 +153,11 @@
         <div class="line3"></div>
         
         <input class ="email-input" type="email" name="Email" placeholder="Email Address" required>
-        <div class="line3"></div>
+        <div class="line3"></div>        
         <textarea class="msg-input" name="Message" placeholder="Enter Text Here" maxlength="500" required cols="30" rows="10"></textarea>
-        <button class="form-btn" type="submit">Get in touch</button>
+        <div id="get-div">
+          <button class="form-btn" type="submit">Get in touch</button>
+        </div>
     </form>
   </article>
   <article id="contsct" class="ative">
@@ -172,9 +176,8 @@
       />
 
       <div class="namemes"> 
-          <div class="line3-1"></div>
-          <div class="line3-1"></div>
-         </div>
+        <div class="line3-1"></div>
+      </div>
 
       <input
         type="email"
@@ -189,13 +192,12 @@
       <textarea
         name="Message"
         class="text msg-input2"
-        id="text"
         placeholder="Please Write your message here"
         maxlength="500"
         required
       ></textarea>
       <small class="error-msg"></small>
-      <div>
+      <div class="form-btn-div">
         <button class="form-btn2" type="submit">Get in touch</button>
       </div>
       </form>
@@ -214,5 +216,6 @@
 </footer>
 <script src="./script.js"></script>
 <script src="./modal.js"></script>
+<script src="./project.js"></script>
 </body>
 </html>

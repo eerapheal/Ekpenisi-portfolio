@@ -1,24 +1,27 @@
 const projects = [
   {
     projectID: 1,
-    name: 'Proffesional art printing data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
+    name: 'awesomebook Applicaion',
+    description: 'This website allows users to store data in local storage and the datas can be edited, updated and deleted as well from the webpage.',
     featuredImageBig: 'images/firstprojectbig.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
+    technologies: ['html', 'CSS', 'JavaScripts'],
+    url: 'https://eerapheal.github.io/awesomebook-ES6/',
   },
   {
     projectID: 2,
-    name: 'Data Dashboard Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    name: 'Mathematician Application',
+    description: 'This is a Math App project That allows users to carry out calculation operations and it was as a single page aplication.',
     featuredImage: 'images/firstprojectbig.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
+    technologies: ['html', 'CSS', 'React.js'],
+    url: 'https://glowing-naiad-81e0ba.netlify.app/',
   },
   {
     projectID: 3,
-    name: 'Website Protfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    name: 'To-do-list Application',
+    description: 'Users can create a task, read tasks, update tasks, delete a task, check completed tasks and delete all checked tasks',
     featuredImage: 'images/firstprojectbig.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
+    technologies: ['html', 'CSS', 'JavaScripts'],
+    url: 'https://eerapheal.github.io/toDolist/dist/',
   },
   {
     projectID: 4,
@@ -26,6 +29,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project4',
   },
   {
     projectID: 5,
@@ -33,6 +37,7 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/firstprojectbig.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project5',
   },
   {
     projectID: 6,
@@ -40,31 +45,27 @@ const projects = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     featuredImage: 'images/Imgplaceholder1.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
+    url: 'https://example.com/project6',
   },
 ];
 
-//  CARDS BEING GENERATED=
 for (let index = 0; index < projects.length; index += 1) {
   const project = projects[index];
-  //  Div projects
   const divProject = document.createElement('div');
   divProject.setAttribute('class', 'header-pro');
 
-  //  title
   const projectName = document.createElement('h2');
   projectName.setAttribute('class', 'pro');
   const projectNameText = document.createTextNode(project.name);
   projectName.appendChild(projectNameText);
   divProject.appendChild(projectName);
 
-  //  description
   const descriptionTag = document.createElement('p');
   descriptionTag.setAttribute('class', 'pro-p');
   const descriptionText = document.createTextNode(project.description);
   descriptionTag.appendChild(descriptionText);
   divProject.appendChild(descriptionTag);
 
-  //  Technologis ul
   const techUl = document.createElement('ul');
   techUl.setAttribute('class', 'multi-btn');
   const techs = project.technologies;
@@ -79,16 +80,20 @@ for (let index = 0; index < projects.length; index += 1) {
   const btnSeeProject = document.createElement('button');
   const btnText = document.createTextNode('See project');
   btnSeeProject.setAttribute('class', 'buttons pro-btn');
-  btnSeeProject.appendChild(btnText);
+
+  // create an "a" element and set its href attribute to the project's url property
+  const aLink = document.createElement('a');
+  aLink.setAttribute('href', project.url);
+  aLink.appendChild(btnText);
+  btnSeeProject.appendChild(aLink);
+
   divProject.appendChild(btnSeeProject);
 
-  //  Add div to dinamicProjects
   const htmlPage = document.getElementById('htmlPage');
-
   htmlPage.appendChild(divProject);
 }
 
-function displayProjects() {
+async function displayProjects() {
   const div = document.getElementById('projectAera');
   div.innerHTML = `
   <section>
@@ -123,7 +128,17 @@ function displayProjects() {
       <li class="ruby-btn">ruby</li>
     </ul>
     <div class="projectBtn">
-    <button class="btn-top" onclick="appear()" type="button">See projests</button>
+    <button type="button" class="btn-top" onclick="appear()" type="button"">
+    <strong>See projests</strong>
+    <div id="container-stars">
+      <div id="stars"></div>
+    </div>
+  
+    <div id="glow">
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+  </button>
     </div>
   </div>
 </div>
@@ -250,18 +265,3 @@ function appear() {
 // appear();
 
 openModalButtons.addEventListener('onclick', appear);
-
-// function dissappearParent(e) {
-//   if (e.target.className === '.modal') {
-//     parentModal.style.display = 'none';
-//   }
-// }
-// parentModal.addEventListener('click', dissappearParent);
-
-// const parentModal = document.getElementsByClassName('modal');
-// const closeBtn = document.getElementsByClassName('close-button');
-// const openbtn = document.getElementsByClassName('multi-btn');
-
-// openbtn.addEventListener('click', () => {
-//   parentModal.className('modal')
-// });
