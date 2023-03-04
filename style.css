@@ -18,6 +18,7 @@
   align-items: center;
   background-color: #3a3a39;
   height: 80px;
+  z-index: 2;
 }
 
 .nav-item {
@@ -233,8 +234,7 @@
   flex-direction: row;
   align-items: center;
   gap: 12px;
-  width: 297px;
-  height: 40px;
+  padding: 10px 12px;
 }
 
 .igmnoe {
@@ -271,8 +271,6 @@
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 49px;
-  height: 40px;
   background-color: #fff;
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
@@ -287,8 +285,6 @@
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 56px;
-  height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
@@ -303,8 +299,6 @@
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 95px;
-  height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
@@ -319,8 +313,6 @@
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 61px;
-  height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
@@ -340,8 +332,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 13rem;
-  height: 3rem;
+  padding: 10px 12px;
   margin-top: 25px;
   background-size: 300% 300%;
   backdrop-filter: blur(1rem);
@@ -457,8 +448,6 @@ strong {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 56px;
-  height: 40px;
   background: rgba(255, 255, 255, 0.24);
 }
 
@@ -467,8 +456,6 @@ strong {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 95px;
-  height: 40px;
   background: rgba(255, 255, 255, 0.24);
 }
 
@@ -477,8 +464,6 @@ strong {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 61px;
-  height: 40px;
   background-color: rgba(255, 255, 255, 0.24);
 }
 
@@ -1317,6 +1302,7 @@ strong {
     min-height: 72px;
     background: #3e3c3c;
     min-width: 100vw;
+    z-index: 2;
   }
 
   #desk-nav ul {
