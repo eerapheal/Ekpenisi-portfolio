@@ -11,10 +11,10 @@ async function displayProjects () {
 </div>
 <div id="multi">
  <div>
-  <img class="img-desk" width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+  <img class="img-desk" width="327" height="237" src="./images/Espenses.png" alt="Budget-app">
   </div>
   <div>
-  <img class="img-desk2" width="327" height="237" src="./images/Img-Placeholder.png" alt="">
+  <img class="img-desk2" width="327" height="237" src="./images/Espenses.png" alt="Budget-app">
   </div>
   <div class="post">
     <h3 class="second-subtittle">
@@ -22,15 +22,15 @@ async function displayProjects () {
     </h3>
   <div id="second-p">
     <p class="second-p">
-      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+      This Budget App keeps track of all your purchases organized in categories of your creation. It allows you to create new categories and create new expenses for each category. In order to use the app, a user must register.
     </p>
   </div>
   <div onclick="appear()">
     <ul class="list-btn">
-      <li class="css-btn">css</li>
-      <li class="html-btn">html</li>
-      <li class="boot-btn">bootsrap</li>
-      <li class="ruby-btn">ruby</li>
+      <li class="css-btn">RonR</li>
+      <li class="html-btn">Devise</li>
+      <li class="boot-btn">TailwindCSS</li>
+      <li class="ruby-btn">CanCanCan</li>
     </ul>
     <div class="projectBtn">
     <button type="button" class="btn-top" onclick="appear()" type="button"">
