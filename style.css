@@ -1799,6 +1799,17 @@ strong {
     gap: 15px;
     padding: 0 20px;
   }
+  
+  .pro {
+    padding: 0 20px;
+    width: 295px;
+    padding-top: 150px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
 
   .pro {
     padding: 0 20px;
