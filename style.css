@@ -875,11 +875,6 @@ strong {
   animation: animStarRotate 90s linear infinite;
 }
 
-/* #stars::after {
-  background-image: radial-gradient(#fff 1px, transparent 1%);
-  background-size: 50px 50px;
-} */
-
 #stars::before {
   content: "";
   position: absolute;
