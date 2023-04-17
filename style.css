@@ -402,13 +402,61 @@ strong {
   padding: 80px;
 }
 
-.header-pro {
+.header-pro:nth-child(1) {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/awsome-book.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+   width: 327px;
+}
+
+.header-pro:nth-child(2) {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/math-app.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+   width: 327px;
+}
+
+.header-pro:nth-child(3) {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/todo-list.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+   width: 327px;
+}
+
+.header-pro:nth-child(4) {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/todo-list.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+   width: 327px;
+}
+
+.header-pro:nth-child(5) {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+   width: 327px;
+}
+
+.header-pro:nth-child(6) {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+   width: 327px;
+}
+
+/* .header-pro {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0) 61.94%), url(./images/Img-Placeholder-pro.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
   width: 327px;
-}
+} */
 
 .pro {
   padding: 0 20px;
@@ -1572,7 +1620,7 @@ strong {
   }
 
   .header-pro:nth-child(4) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder.png);
+    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/todo-list.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
