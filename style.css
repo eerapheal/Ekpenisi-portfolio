@@ -181,7 +181,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 0 120px;
+  margin: 35px 120px;
 }
 
 .second-tittle {
@@ -247,7 +247,7 @@
   flex-direction: row;
   align-items: center;
   gap: 12px;
-  width: 297px;
+  /* width: 297px; */
   height: 40px;
   padding: 0 24px;
   margin-bottom: 23px;
@@ -257,7 +257,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 12px;
+  padding: 8px 10px;
   background-color: #fff;
   border: 1px solid #8993a4;
   font-family: 'Inter', serif;
