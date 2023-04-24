@@ -420,7 +420,7 @@ strong {
 }
 
 .header-pro:nth-child(3) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/todo-list.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Image20230419124343.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
@@ -1599,49 +1599,31 @@ strong {
   }
 
   .header-pro:nth-child(1) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/awsome-book.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 420px;
     width: 367px;
   }
 
   .header-pro:nth-child(2) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/math-app.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 420px;
     width: 367px;
   }
 
   .header-pro:nth-child(3) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/todo-list.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 420px;
     width: 367px;
   }
 
   .header-pro:nth-child(4) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/todo-list.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 420px;
     width: 367px;
   }
 
   .header-pro:nth-child(5) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 420px;
     width: 367px;
   }
 
   .header-pro:nth-child(6) {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 420px;
     width: 367px;
   }

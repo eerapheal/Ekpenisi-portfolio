@@ -21,7 +21,7 @@ const projects = [
       description: 'Users can create a task, read tasks, update tasks, delete a task, check completed tasks and delete all checked tasks',
       featuredImage: 'images/',
       technologies: ['html', 'CSS', 'JavaScripts'],
-      url: 'https://www.linkedin.com/in/ekpenisiraphael/',
+      url: 'https://space-travel-hub-by-ralph.netlify.app/',
     }, 
     {
       projectID: 4,
