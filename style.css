@@ -436,7 +436,7 @@ strong {
 }
 
 .header-pro:nth-child(5) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder1.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Image20230429085301.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
@@ -444,20 +444,12 @@ strong {
 }
 
 .header-pro:nth-child(6) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Imgplaceholder2.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Image20230428204731.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
    width: 327px;
 }
-
-/* .header-pro {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0) 61.94%), url(./images/Img-Placeholder-pro.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 375px;
-  width: 327px;
-} */
 
 .pro {
   padding: 0 20px;
@@ -1205,7 +1197,7 @@ strong {
 .modal-pic {
   display: flex;
   flex-direction: column;
-  background-image: url(./images/SnapshootPortfolio.png);
+  background-image: url(./images/Image20230429085301.png);
   background-repeat: no-repeat;
   margin-top: 14px;
   height: 200px;
@@ -2048,8 +2040,8 @@ strong {
     --border-width: 0.125em;
     --curve-size: 0.5em;
     --blur: 30px;
-    --bg: #61442f;
-    --color: #6bfafa;
+    /* background-color: #753100; */
+    color: #b5eded;
 
     cursor: pointer;
     color: var(--color);

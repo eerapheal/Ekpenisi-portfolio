@@ -11,10 +11,10 @@ async function displayProjects () {
 </div>
 <div id="multi">
  <div>
-  <img class="img-desk" width="327" height="237" src="./images/Espenses.png" alt="Budget-app">
+  <img class="img-desk" width="327" height="237" src="./images/Image20230429085301.png" alt="Budget-app">
   </div>
   <div>
-  <img class="img-desk2" width="327" height="237" src="./images/Espenses.png" alt="Budget-app">
+  <img class="img-desk2" width="327" height="237" src="./images/Image20230429085301.png" alt="Budget-app">
   </div>
   <div class="post">
     <h3 class="second-subtittle">
@@ -56,12 +56,12 @@ displayProjects();
 
 const modalInformation = {
   heading1: 'Multi Post Stories',
-  title2: 'Keeping track of hundreds  of components website',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-  description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-  imageSrc: './images/todolist.png',
-  button1: 'See Live  <img src="./images/Iconlive.png">',
-  button2: 'See Source <img src="./images/Vectorhub.png">',
+  title2: 'stay updated on the latest Covid-19 statistical',
+  description: "This application provides users with a convenient and accessible way to stay updated on the latest Covid-19 statistical data for all continents in the world. It allows users to quickly and easily view important metrics such as confirmed cases, deaths, recoveries, and more, all from a single platform. Additionally, users can also search for data specific to a particular continent by entering its name into the search bar.",
+  description2: "This app offers an easy way to access the latest Covid-19 stats for all continents and search by continent name, making it a valuable resource for staying informed during the ongoing pandemic.",
+  imageSrc: './images/firstprojectbig.png',
+  button1: 'See Live  <a href ="https://zingy-cactus-5d6941.netlify.app/"><img src="./images/Iconlive.png" alt="Budget-ap></a>',
+  button2: 'See Source <a href ="https://github.com/eerapheal"><img src="./images/Vectorhub.png"alt="Budget-ap></a>',
   li: 'html',
   li2: 'Bootstrap',
   li3: 'Ruby on rails',
