@@ -27,10 +27,10 @@ async function displayProjects () {
   </div>
   <div onclick="appear()">
     <ul class="list-btn">
-      <li class="css-btn">RonR</li>
-      <li class="html-btn">Devise</li>
-      <li class="boot-btn">Tailwind</li>
-      <li class="ruby-btn">CanCan</li>
+      <li class="css-btn">HTML</li>
+      <li class="html-btn">CSS</li>
+      <li class="boot-btn">React</li>
+      <li class="ruby-btn">Redux</li>
     </ul>
     <div class="projectBtn">
     <button type="button" class="btn-top" onclick="appear()" type="button"">
