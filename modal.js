@@ -22,7 +22,7 @@ async function displayProjects () {
     </h3>
   <div id="second-p">
     <p class="second-p">
-      This Budget App keeps track of all your purchases organized in categories of your creation. It allows you to create new categories and create new expenses for each category. In order to use the app, a user must register.
+    This application provides users with a convenient and accessible way to stay updated on the latest Covid-19 statistical data for all continents in the world. It allows users to quickly and easily view important metrics such as confirmed cases, deaths, recoveries, and more, all from a single platform. Additionally, users can also search for data specific to a particular continent by entering its name into the search bar.
     </p>
   </div>
   <div onclick="appear()">
