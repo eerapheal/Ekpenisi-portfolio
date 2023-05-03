@@ -1077,8 +1077,8 @@ strong {
   transform: translate(-50%, -50%);
   z-index: 10;
   background-color: #fff;
-  width: 320px;
-  min-height: 565px;
+  width: 95vw;
+  min-height: 95vh;
   border: 1px solid #dfe2e6;
   animation: 1s drop;
   display: none;
