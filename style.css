@@ -47,7 +47,7 @@
 }
 
 .logo {
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto', ;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
@@ -93,7 +93,7 @@
 
 .tittle {
   margin-right: 24px;
-  font-family: 'inter', serif;
+  font-family: 'inter', ;
   font-style: normal;
   font-size: 42px;
   line-height: 64px;
@@ -103,20 +103,20 @@
 
 .sub-tittle {
   margin-right: 24px;
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto', ;
   font-style: normal;
   font-size: 19px;
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #fff5e1;
+  color: #fff;
 }
 
 .paragh {
   margin-right: 24px;
-  font-family: 'Poppins', serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   color: #fff;
   -webkit-text-stroke: 0.01vw #6b6b65;
@@ -258,7 +258,7 @@
   padding: 8px 10px;
   background-color: #fff;
   border: 1px solid #8993a4;
-  font-family: 'Inter', serif;
+  font-family: 'Inter', ;
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
@@ -272,7 +272,7 @@
   padding: 10px 12px;
   background-color: #fff;
   border: 1px solid #8993a4;
-  font-family: 'Inter', serif;
+  font-family: 'Inter', ;
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
@@ -286,7 +286,7 @@
   padding: 10px 12px;
   background: #fff;
   border: 1px solid #8993a4;
-  font-family: 'Inter', serif;
+  font-family: 'Inter', ;
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
@@ -300,7 +300,7 @@
   padding: 10px 12px;
   background: #fff;
   border: 1px solid #8993a4;
-  font-family: 'Inter', serif;
+  font-family: 'Inter', ;
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
@@ -314,7 +314,7 @@
   padding: 10px 12px;
   background: #fff;
   border: 1px solid #8993a4;
-  font-family: 'Inter', serif;
+  font-family: 'Inter', ;
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
@@ -742,7 +742,7 @@ strong {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-family: "Inter", serif;
+  font-family: "Inter", ;
   font-style: normal;
   font-size: 32px;
   padding-top: 82px;
@@ -1375,7 +1375,7 @@ strong {
   }
 
   .logo {
-    font-family: 'inter', serif;
+    font-family: 'inter', ;
     font-style: normal;
     font-size: 20px;
     line-height: 24px;
@@ -1728,7 +1728,7 @@ strong {
   }
 
   .logo {
-    font-family: 'inter', serif;
+    font-family: 'inter', ;
     font-style: normal;
     font-size: 20px;
     line-height: 24px;
