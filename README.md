@@ -6,7 +6,7 @@ This repository includes files with plain HTML CSS AND JAVASCRIPTS.
 Ekpenisi Portfolio.
 
 ## Description of project.
-My first milestone in the process of creating my portfolio website, I used the design template from Figma. In this portfolio website, I showcased my skills in HTML, CSS AND JavaScript.
+As I embarked on creating my portfolio website, I reached my initial milestone by employing a design template sourced from Figma. Through this website, I effectively exhibited my proficiencies in HTML, CSS, and JavaScript.
 
 ## Project web demo link.
 https://eerapheal.github.io/Ekpenisi-portfolio/
