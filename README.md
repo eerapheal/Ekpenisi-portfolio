@@ -9,16 +9,13 @@ Ekpenisi Portfolio.
 As I embarked on creating my portfolio website, I reached my initial milestone by employing a design template sourced from Figma. Through this website, I effectively exhibited my proficiencies in HTML, CSS, and JavaScript.
 
 ## Project web demo link.
-https://eerapheal.github.io/Ekpenisi-portfolio/
+[Live Link](https://eerapheal.github.io/Ekpenisi-portfolio/)
 
 ## Built With
 HTML, CSS and JavaScript.
 
 ## Prerequisites
 Vscode.
-
-## Website link: 
-[Live Link](https://eerapheal.github.io/Ekpenisi-portfolio/)
 
 ## Setup
 Clone this repo with:
