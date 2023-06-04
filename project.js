@@ -82,14 +82,65 @@ const projects = [
     btnSeeProject.setAttribute('class', 'buttons pro-btn');
   
     // create an "a" element and set its href attribute to the project's url property
-    const aLink = document.createElement('a');
-    aLink.setAttribute('href', project.url);
-    aLink.appendChild(btnText);
-    btnSeeProject.appendChild(aLink);
+    // const aLink = document.createElement('a');
+    // aLink.setAttribute('href', project.url);
+    // aLink.appendChild();
+    btnSeeProject.appendChild(btnText);
   
     divProject.appendChild(btnSeeProject);
+
+
+    btnSeeProject.addEventListener('click', () => {
+      openModal(project);
+    });
+    
+    divProject.appendChild(btnSeeProject);
+    
+    // ...
+    
+    // Function to open the modal and populate its content
+    function openModal(project) {
+      const modal = document.getElementById('modal');
+      const modalProjectName = document.getElementById('modal-project-name');
+      const modalProjectDescription = document.getElementById('modal-project-description');
+      const modalProjectTechnologies = document.getElementById('modal-project-technologies');
+      const modalProjectLink = document.getElementById('modal-project-link');
+    
+      modalProjectName.textContent = project.name;
+      modalProjectDescription.textContent = project.description;
+      modalProjectTechnologies.innerHTML = '';
+      project.technologies.forEach((tech) => {
+        const liTech = document.createElement('li');
+        liTech.textContent = tech;
+        modalProjectTechnologies.appendChild(liTech);
+      });
+      modalProjectLink.href = project.url;
+    
+      modal.style.display = 'block';
+    
+      // Close the modal when the user clicks on the close button
+      const closeBtn = document.getElementsByClassName('close')[0];
+      closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    
+      // Close the modal when the user clicks outside the modal content
+      window.addEventListener('click', (event) => {
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
+      });
+    }
+    
+    // ...
   
     const htmlPage = document.getElementById('htmlPage');
     htmlPage.appendChild(divProject);
   }
   
+
+
+  // modal
+
+// Add event listener to each "See project" button
+
