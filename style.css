@@ -167,7 +167,7 @@
 #modal-project-technologies {
   display: flex;
   gap: 15px;
-  margin: 15px;
+  margin: 25px 0cm;
 }
 
 #modal-project-technologies li {
@@ -1183,12 +1183,14 @@ strong {
 }
 
 .live-button {
+  border-radius: 30px;
   border: 2px solid #7c3204;
 }
 
 .live-button a {
   background-color: #ff6b00;
   border: 2px solid #f52072;
+  border-radius: 30px;
   background-repeat: no-repeat;
   color: #fff;
   font-family: "Inter", sans-serif;
@@ -1201,11 +1203,12 @@ strong {
 }
 
 .source-button1 {
-  
+  border-radius: 30px;
   border: 2px solid #7c3204;
 }
 
 .source-button1 a {
+  border-radius: 30px;
   background-color: #ff6b00;
   background-repeat: no-repeat;
   border: 2px solid #f52072;
