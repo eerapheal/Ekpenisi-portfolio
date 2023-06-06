@@ -18,8 +18,7 @@ HTML, CSS and JavaScript.
 Vscode.
 
 ## Setup
-Clone this repo with:
-https://github.com/eerapheal/Ekpenisi-portfolio.git
+[Clone this repo with:](https://github.com/eerapheal/Ekpenisi-portfolio.git)
 
 ```
 cd Ekpenisi-portfolio
@@ -31,9 +30,9 @@ npm install
 ## Author1
 Ekpenisi Erue Raphael.
  
-[GitHub](https://github.com/eerapheal) 
-[Twitter](https://twitter.com/ekpenisiraphael) 
-[LinkedIn](https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
+- [GitHub](https://github.com/eerapheal) 
+- [Twitter](https://twitter.com/ekpenisiraphael) 
+- [LinkedIn](https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
 
 ## Author2:
 Kennedy Omondi
