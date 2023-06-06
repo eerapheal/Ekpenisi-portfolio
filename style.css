@@ -139,7 +139,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  background-image: linear-gradient(179.4deg, rgba(17, 16, 16, 0) 0.81%, rgba(7, 6, 6, 0.9) 84.03%);
   min-width: 90vw;
   min-height: 95vh;
   border: 1px solid #dfe2e6;
@@ -149,7 +148,6 @@
 }
 
 .modal-content {
-  color: #172b4d;
   padding: 100px 50px;
 }
 
@@ -158,7 +156,7 @@
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -187,7 +185,7 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 600;
-  color: #172b4d;
+  color: #fff;
 }
 
 #modal-project-link {
@@ -196,7 +194,7 @@
 }
 
 .close {
-  color: #0a0808;
+  color: #dfdbdb;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -528,14 +526,6 @@ strong {
   height: 375px;
   width: 327px;
 }
-
-/* .modalviw:nth-child(5) {
-  background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Image20230428204731.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 375px;
-   width: 327px;
-} */
 
 .pro {
   padding: 0 20px;
@@ -1186,13 +1176,11 @@ strong {
 }
 
 .live-button {
-  border-radius: 30px;
   border: 2px solid #7c3204;
 }
 
 .live-button a {
   background-color: #ff6b00;
-  border-radius: 30px;
   border: 2px solid #f52072;
   background-repeat: no-repeat;
   color: #fff;
@@ -1206,7 +1194,7 @@ strong {
 }
 
 .source-button1 {
-  border-radius: 30px;
+  
   border: 2px solid #7c3204;
 }
 
@@ -1215,7 +1203,6 @@ strong {
   background-repeat: no-repeat;
   border: 2px solid #f52072;
   color: #fff;
-  border-radius: 30px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 14px;

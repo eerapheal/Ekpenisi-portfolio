@@ -116,12 +116,12 @@ for (let index = 0; index < projects.length; index += 1) {
     modalProjectName.textContent = project.name;
     modalProjectDescription.textContent = project.description;
 
-    modalProjectLink.innerHTML = `<div class="source-div"><button class="source-button1">${project.url}<button></div> <div><button class="source-button1">${project.url1}<button></div>`;
+    modalProjectLink.innerHTML = `<div class="source-button1">${project.url}</div> <div class="source-button1">${project.url1}</div>`;
 
     // modalProjectImage = project.featuredImage;
 
     const modalContent = document.getElementById("modalviw");
-    modalContent.style.backgroundImage = `url(${project.featuredImage})`;
+    modalContent.style.backgroundImage = `linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(${project.featuredImage})`;
 
     modal.style.display = "block";
     // Close the modal when the user clicks on the close button
