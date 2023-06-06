@@ -111,10 +111,18 @@ for (let index = 0; index < projects.length; index += 1) {
     const modalProjectDescription = document.getElementById(
       "modal-project-description"
     );
+    const modalProjectTechnologies = document.getElementById('modal-project-technologies');
     const modalProjectLink = document.getElementById("modal-project-link");
 
     modalProjectName.textContent = project.name;
     modalProjectDescription.textContent = project.description;
+
+      modalProjectTechnologies.innerHTML = '';
+      project.technologies.forEach((tech) => {
+        const liTech = document.createElement('li');
+        liTech.textContent = tech;
+        modalProjectTechnologies.appendChild(liTech);
+      });
 
     modalProjectLink.innerHTML = `<div class="source-button1">${project.url}</div> <div class="source-button1">${project.url1}</div>`;
 
