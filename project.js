@@ -3,49 +3,55 @@ const projects = [
       projectID: 1,
       name: 'awesomebook Applicaion',
       description: 'Through the website, users can store data locally and perform editing, updating, and deletion of the stored data directly from the webpage.',
-      featuredImageBig: 'images/firstprojectbig.png',
+      featuredImage: './images/awsome-book.png',
       technologies: ['html', 'CSS', 'JavaScripts'],
-      url: 'https://eerapheal.github.io/awesomebook-ES6/',
+      url: '<a href ="">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+      url1: '<a href ="">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
     },
     {
       projectID: 2,
       name: 'Mathematician Application',
       description: 'The Math App project is designed as a single-page application, enabling users to perform various mathematical calculations effortlessly.',
-      featuredImage: 'images/firstprojectbig.png',
+      featuredImage: 'images/math-app.png',
       technologies: ['html', 'CSS', 'React.js'],
-      url: 'https://glowing-naiad-81e0ba.netlify.app/',
+      url: '<a href ="">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+      url1: '<a href ="">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
     },
     {
       projectID: 3,
       name: 'Space Travel Hub',
       description: 'This app built with HTML, CSS, JS, React-Redux API for mission/rocket fetching and reservations/joining with user profile.',
-      featuredImage: 'images/',
+      featuredImage: 'images/Image20230419124343.png',
       technologies: ['html', 'CSS', 'JavaScripts'],
-      url: 'https://space-travel-hub-by-ralph.netlify.app/',
+      url: '<a href ="">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+      url1: '<a href ="">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
     }, 
     {
       projectID: 4,
       name: 'to-do-list Application',
       description: 'Task creation, reading, updating, and deletion are available to users, as well as the ability to view and delete completed tasks.',
-      featuredImage: 'images/firstprojectbig.png',
+      featuredImage: './images/todo-list.png',
       technologies: ['html', 'bootstrap', 'React'],
-      url: 'https://eerapheal.github.io/toDolist/dist/',
+      url: '<a href ="">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+      url1: '<a href ="">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>', 
     },
     {
       projectID: 5,
       name: ' Covid-19 stats mobile App',
       description: 'Stay up-to-date on Covid-19 stats for all continents with this app, featuring easy search by continent name for quick access to the latest data.',
-      featuredImage: 'images/firstprojectbig.png',
+      featuredImage: './images/Image20230429085301.png',
       technologies: ['html', 'bootstrap', 'React'],
-      url: 'https://zingy-cactus-5d6941.netlify.app/',
+      url: '<a href ="">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+      url1: '<a href ="">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',               
     },
     {
       projectID: 6,
       name: 'Tech Speakers App',
       description: 'This project is designed with more features for online lectures and international tech professional events, using HTML, CSS, and JS.',
-      featuredImage: 'images/Imgplaceholder1.png',
+      featuredImage: './images/Image20230428204731.png',
       technologies: ['html', 'CSS', 'JavaScript'],
-      url: 'https://eerapheal.github.io/capstone-project1/',
+      url: ' <a href ="https://github.com/eerapheal/react-capstone">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+      url1: ' <a href ="https://github.com/eerapheal/react-capstone">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',     
     },
   ];
   
@@ -100,24 +106,30 @@ const projects = [
     
     // Function to open the modal and populate its content
     function openModal(project) {
-      const modal = document.getElementById('modal');
+      const modal = document.getElementById('modalviw');
+      // const modalProjectImage = document.getElementById('modal-project-image');
       const modalProjectName = document.getElementById('modal-project-name');
       const modalProjectDescription = document.getElementById('modal-project-description');
-      const modalProjectTechnologies = document.getElementById('modal-project-technologies');
+      // const modalProjectTechnologies = document.getElementById('modal-project-technologies');
       const modalProjectLink = document.getElementById('modal-project-link');
     
       modalProjectName.textContent = project.name;
       modalProjectDescription.textContent = project.description;
-      modalProjectTechnologies.innerHTML = '';
-      project.technologies.forEach((tech) => {
-        const liTech = document.createElement('li');
-        liTech.textContent = tech;
-        modalProjectTechnologies.appendChild(liTech);
-      });
-      modalProjectLink.href = project.url;
-    
+      // modalProjectTechnologies.innerHTML = '';
+      // project.technologies.forEach((tech) => {
+      //   const liTech = document.createElement('li');
+      //   liTech.textContent = tech;
+      //   modalProjectTechnologies.appendChild(liTech);
+      // });
+
+      modalProjectLink.innerHTML = `<div class="source-div"><button class="source-button1">${project.url}<button></div> <div><button class="source-button1">${project.url1}<button></div>`;
+
+      // modalProjectImage = project.featuredImage;
+      
+      const modalContent = document.getElementById('modalviw');
+      modalContent.style.backgroundImage = `url(${project.featuredImage})`;
+
       modal.style.display = 'block';
-    
       // Close the modal when the user clicks on the close button
       const closeBtn = document.getElementsByClassName('close')[0];
       closeBtn.addEventListener('click', () => {

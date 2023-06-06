@@ -63,9 +63,9 @@ const modalInformation = {
     "This app offers an easy way to access the latest Covid-19 stats for all continents and search by continent name, making it a valuable resource for staying informed during the ongoing pandemic.",
   imageSrc: "./images/firstprojectbig.png",
   button1:
-    'See Live  <a href ="https://zingy-cactus-5d6941.netlify.app/"><img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+    '<a href ="https://zingy-cactus-5d6941.netlify.app/">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
   button2:
-    'See Source <a href ="https://github.com/eerapheal/react-capstone"><img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
+    '<a href ="https://github.com/eerapheal/react-capstone">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
   li: "html",
   li2: "Bootstrap",
   li3: "Ruby on rails",
