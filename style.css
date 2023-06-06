@@ -180,7 +180,6 @@
 
 #modal-project-description {
   margin: 27px 0;
-  /* padding: 0 20px; */
   width: 295px;
   padding-top: 50px;
   font-family: 'Crete Round', sans-serif;
@@ -194,15 +193,6 @@
 #modal-project-link {
   display: flex;
   gap: 50px;
-  /* padding: 8px 12px;
-  background-color: transparent;
-  border: 1px solid #8993a4;
-  font-family: 'Inter', ;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 20px;
-  color: #091e42;
-  font-weight: 700; */
 }
 
 .close {
@@ -336,7 +326,6 @@
   flex-direction: row;
   align-items: center;
   gap: 12px;
-  /* width: 297px; */
   height: 40px;
   padding: 0 24px;
   margin-bottom: 23px;
@@ -497,7 +486,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
-   width: 327px;
+  width: 327px;
 }
 
 .header-pro:nth-child(2) {
@@ -505,7 +494,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
-   width: 327px;
+  width: 327px;
 }
 
 .header-pro:nth-child(3) {
@@ -513,7 +502,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
-   width: 327px;
+  width: 327px;
 }
 
 .header-pro:nth-child(4) {
@@ -521,7 +510,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
-   width: 327px;
+  width: 327px;
 }
 
 .header-pro:nth-child(5) {
@@ -529,7 +518,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
-   width: 327px;
+  width: 327px;
 }
 
 .header-pro:nth-child(6) {
@@ -537,7 +526,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
-   width: 327px;
+  width: 327px;
 }
 
 /* .modalviw:nth-child(5) {
@@ -661,17 +650,12 @@ strong {
   background: var(--bg);
   z-index: -1;
   clip-path:
-    polygon(
-      var(--border-width)
-      calc(var(--curve-size) + var(--border-width) * 0.5),
+    polygon(var(--border-width) calc(var(--curve-size) + var(--border-width) * 0.5),
       calc(var(--curve-size) + var(--border-width) * 0.5) var(--border-width),
-      calc(100% - var(--border-width))
-      var(--border-width),
-      calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
       calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
-      var(--border-width) calc(100% - var(--border-width))
-    );
+      var(--border-width) calc(100% - var(--border-width)));
   transition: clip-path 500ms;
 }
 
@@ -730,6 +714,7 @@ strong {
 .get-btns a {
   color: #afffff;
 }
+
 .get-btn {
   margin: 0 25px;
 
@@ -810,17 +795,12 @@ strong {
   background: var(--bg);
   z-index: -1;
   clip-path:
-    polygon(
-      var(--border-width)
-      calc(var(--curve-size) + var(--border-width) * 0.5),
+    polygon(var(--border-width) calc(var(--curve-size) + var(--border-width) * 0.5),
       calc(var(--curve-size) + var(--border-width) * 0.5) var(--border-width),
-      calc(100% - var(--border-width))
-      var(--border-width),
-      calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
       calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
-      var(--border-width) calc(100% - var(--border-width))
-    );
+      var(--border-width) calc(100% - var(--border-width)));
   transition: clip-path 500ms;
 }
 
@@ -943,20 +923,12 @@ strong {
 
 .pro-btn:where(:hover, :focus)::after {
   clip-path:
-    polygon(
-      calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-      calc(100% - var(--border-width))
-      var(--border-width),
-      calc(100% - var(--border-width))
-      var(--border-width),
-      calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
-      calc(100% - var(--border-width)),
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
-      calc(100% - var(--border-width))
-    );
+    polygon(calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)));
   transition: 200ms;
 }
 
@@ -966,20 +938,12 @@ strong {
 
 .form-btn2:where(:hover, :focus)::after {
   clip-path:
-    polygon(
-      calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-      calc(100% - var(--border-width))
-      var(--border-width),
-      calc(100% - var(--border-width))
-      var(--border-width),
-      calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
-      calc(100% - var(--border-width)),
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
-      calc(100% - var(--border-width))
-    );
+    polygon(calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)));
   transition: 200ms;
 }
 
@@ -1222,7 +1186,7 @@ strong {
 }
 
 .live-button {
-    border-radius: 30px;
+  border-radius: 30px;
   border: 2px solid #7c3204;
 }
 
@@ -1245,6 +1209,7 @@ strong {
   border-radius: 30px;
   border: 2px solid #7c3204;
 }
+
 .source-button1 a {
   background-color: #ff6b00;
   background-repeat: no-repeat;
@@ -1817,7 +1782,7 @@ strong {
     margin-left: 580px;
     margin-top: -45px;
     border-radius: 30px;
-  /* border: 3px solid #7c3204; */
+    /* border: 3px solid #7c3204; */
   }
 
   .img-desk {
@@ -1913,7 +1878,7 @@ strong {
     gap: 15px;
     padding: 0 20px;
   }
-  
+
   .pro {
     padding: 0 20px;
     width: 295px;
@@ -2192,14 +2157,12 @@ strong {
     text-transform: uppercase;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     clip-path:
-      polygon(
-        0% var(--curve-size),
+      polygon(0% var(--curve-size),
         var(--curve-size) 0,
         100% 0,
         100% calc(100% - var(--curve-size)),
         calc(100% - var(--curve-size)) 100%,
-        0 100%
-      );
+        0 100%);
     transition: color 250ms;
   }
 
