@@ -402,7 +402,7 @@ strong {
 }
 
 .header-pro:nth-child(1) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/awsome-book.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/to-do-list.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
@@ -410,7 +410,7 @@ strong {
 }
 
 .header-pro:nth-child(2) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/math-app.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/math-magic.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
@@ -418,7 +418,7 @@ strong {
 }
 
 .header-pro:nth-child(3) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Image20230419124343.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/food-proj.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
@@ -426,7 +426,7 @@ strong {
 }
 
 .header-pro:nth-child(4) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/todo-list.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/shopping.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
@@ -434,7 +434,7 @@ strong {
 }
 
 .header-pro:nth-child(5) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Image20230429085301.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/car-app.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
@@ -442,7 +442,7 @@ strong {
 }
 
 .header-pro:nth-child(6) {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/Image20230428204731.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(./images/space-pic.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 375px;
@@ -1195,7 +1195,7 @@ strong {
 .modal-pic {
   display: flex;
   flex-direction: column;
-  background-image: url(./images/Image20230429085301.png);
+  background-image: url(./images/air-air.png);
   background-repeat: no-repeat;
   margin-top: 14px;
   height: 200px;
