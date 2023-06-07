@@ -1418,10 +1418,14 @@ strong {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 568px) {
   .img-desk {
     display: none;
   }
+
+  /* .header-mo1 {
+    display: none;
+  } */
 
   #social-media {
     display: none;
@@ -1483,52 +1487,22 @@ strong {
     color: #fff;
   }
 
-  .first-sec {
-    background-color: #1c1a19;
-    min-height: 602px;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-  }
-
-  .tittle {
-    margin-right: 131px;
-    padding: 0 143px;
-    font-family: 'Crete Round', sans-serif;
-  }
-
   #contactt {
     display: none;
   }
 
-  .paragh {
-    min-height: 132px;
-    padding: 0 143px;
-  }
-
-  .sub-tittle {
-    padding: 0 143px;
-  }
-
-  .newsocial3 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-  }
 
   #social-media3 {
-    position: absolute;
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 0 20px;
-    margin-top: 53px;
+    gap:28px;
   }
+
+
 
   #my-recnt {
     display: flex;
-    gap: 25px;
+    gap: 20px;
     align-items: center;
-    padding: 0 12px 0;
   }
 
   .second-tittle {
@@ -1539,16 +1513,13 @@ strong {
     border: 1px solid #313030;
     margin-bottom: 0;
     height: 1px;
-    width: 320px;
+    width: 150px;
   }
 
   #multi {
     display: flex;
-    margin: 0 200px;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    padding: 90px 0 0;
   }
 
   .img-desk2 {
@@ -1561,12 +1532,6 @@ strong {
     display: flex;
     flex-direction: column;
     padding: 0 24px;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 29px;
   }
 
   .ative {
@@ -1682,37 +1647,42 @@ strong {
   #htmlPage {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* gap: 10px; */
+    gap: 25px;
+  }
+
+  .pro-btn {
+    width: 269px;
+    height: 48px;
   }
 
   .header-pro:nth-child(1) {
     height: 420px;
-    width: 367px;
+    width: 269px;
   }
 
   .header-pro:nth-child(2) {
     height: 420px;
-    width: 367px;
+    width: 269px;
   }
 
   .header-pro:nth-child(3) {
     height: 420px;
-    width: 367px;
+    width: 269px;
   }
 
   .header-pro:nth-child(4) {
     height: 420px;
-    width: 367px;
+    width: 269px;
   }
 
   .header-pro:nth-child(5) {
     height: 420px;
-    width: 367px;
+    width: 269px;
   }
 
   .header-pro:nth-child(6) {
     height: 420px;
-    width: 367px;
+    width: 269px;
   }
 
   .igmnoe {
