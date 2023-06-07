@@ -1,7 +1,7 @@
 const projects = [
   {
     projectID: 1,
-    name: "awesomebook Applicaion",
+    name: "awesomebook  Applicaion",
     description:
       "Through the website, users can store data locally and perform editing, updating, and deletion of the stored data directly from the webpage.",
     featuredImage: "./images/awsome-book.png",
@@ -21,9 +21,9 @@ const projects = [
   },
   {
     projectID: 3,
-    name: "Space Travel Hub",
+    name: "Space Travel Hub app",
     description:
-      "This app built with HTML, CSS, JS, React-Redux API for mission/rocket fetching and reservations/joining with user profile.",
+      "This application built with HTML, CSS, JS, React-Redux API for mission/rocket fetching and reservations/joining with user profile.",
     featuredImage: "images/Image20230419124343.png",
     technologies: ["html", "CSS", "JavaScripts"],
     url: '<a href ="https://space-travel-hub-by-ralph.netlify.app/">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
@@ -65,7 +65,7 @@ for (let index = 0; index < projects.length; index += 1) {
   const project = projects[index];
   const divProject = document.createElement("div");
   divProject.setAttribute("class", "header-pro");
-
+  divProject.style.backgroundImage = `linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(${project.featuredImage})`;
   const projectName = document.createElement("h2");
   projectName.setAttribute("class", "pro");
   const projectNameText = document.createTextNode(project.name);
