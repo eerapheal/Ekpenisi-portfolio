@@ -33,7 +33,7 @@ const projects = [
     projectID: 4,
     name: "to-do-list Application",
     description:
-      "Task creation, reading, updating, and deletion are available to users, as well as the ability to view and delete completed tasks.",
+      "Task creation in this project: reading, updating, and deletion are available to users, as well as the ability to view and delete completed tasks.",
     featuredImage: "./images/todo-list.png",
     technologies: ["html", "bootstrap", "React"],
     url: '<a href ="https://eerapheal.github.io/toDolist/dist/">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
@@ -51,9 +51,9 @@ const projects = [
   },
   {
     projectID: 6,
-    name: "Tech Speakers App",
+    name: "Tech Speakers Application",
     description:
-      "This project is designed with more features for online lectures and international tech professional events, using HTML, CSS, and JS.",
+      "This project is designed with more features for online lectures and international tech professional events, using HTML, CSS, and JavaScript.",
     featuredImage: "./images/Image20230428204731.png",
     technologies: ["html", "CSS", "JavaScript"],
     url: ' <a href ="https://eerapheal.github.io/capstone-project1/">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
@@ -129,7 +129,7 @@ for (let index = 0; index < projects.length; index += 1) {
     // modalProjectImage = project.featuredImage;
 
     const modalContent = document.getElementById("modalviw");
-    modalContent.style.backgroundImage = `linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(${project.featuredImage})`;
+    modalContentinnerHTML = `<div> ${project.featuredImage}</div>`;
 
     modal.style.display = "block";
     // Close the modal when the user clicks on the close button

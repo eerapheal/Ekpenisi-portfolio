@@ -11,10 +11,10 @@ async function displayProjects() {
 </div>
 <div id="multi">
  <div>
-  <img class="img-desk" width="327" height="237" src="./images/Image20230429085301.png" alt="Budget-app">
+  <img class="img-desk" width="300" height="237" src="./images/Image20230429085301.png" alt="Budget-app">
   </div>
   <div>
-  <img class="img-desk2" width="327" height="237" src="./images/Image20230429085301.png" alt="Budget-app">
+  <img class="img-desk2" src="./images/Image20230429085301.png" alt="Budget-app">
   </div>
   <div class="post">
     <h3 class="second-subtittle">
