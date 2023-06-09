@@ -145,8 +145,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  min-width: 90vw;
-  min-height: 95vh;
+  min-width: 80vw;
+  height: 95vh;
   border: 1px solid #dfe2e6;
   animation: 1s drop;
   display: none;
@@ -154,7 +154,7 @@
 }
 
 .modal-content {
-  padding: 100px 50px;
+  padding: 120px 50px;
 }
 
 #modal-project-name {
@@ -207,10 +207,10 @@
 }
 
 .close {
-  color: #dfdbdb;
+  color: #fdfbfb;
   float: right;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 60px;
+  font-weight: 400;
   cursor: pointer;
 }
 
@@ -1007,7 +1007,7 @@ strong {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  margin-right: 24px;
+  padding: 54px;
 }
 
 .name-input {
@@ -1021,14 +1021,13 @@ strong {
   font-size: 15px;
   line-height: 24px;
   color: #979493;
-  margin-top: 64px;
   padding: 0 24px;
   background-color: #fbf8f7;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 .email-input {
-  margin-top: 30px;
+  margin-top:5px;
   width: 327px;
   height: 48px;
   display: flex;
@@ -1045,7 +1044,7 @@ strong {
 }
 
 .msg-input {
-  margin-top: 35px;
+  margin-top: 5px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 15px;
@@ -1387,6 +1386,10 @@ strong {
   html {
     scroll-behavior: smooth;
     transition-duration: 1ms;
+  } 
+  .modal {
+    width: 90vw;
+    min-height: 55vh
   }
 
   #nav-bar {
@@ -1511,14 +1514,14 @@ strong {
     font-size: 15px;
     line-height: 24px;
     color: #979493;
-    margin-top: 64px;
+    margin-top: 54px;
     padding: 0 24px;
     background-color: #fbf8f7;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   }
 
   .email-input2 {
-    margin-top: 30px;
+    margin-top: 5px;
     width: 400px;
     height: 48px;
     display: flex;
@@ -1535,7 +1538,7 @@ strong {
   }
 
   .msg-input2 {
-    margin-top: 35px;
+    margin-top: 5px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 15px;
@@ -1568,18 +1571,6 @@ strong {
     height: 48px;
     background: #ff6b00;
     border: none;
-  }
-
-  .line3-1 {
-    border: 1px solid #e5e5e5;
-    height: 1px;
-    width: 400px;
-  }
-
-  .line3-2 {
-    border: 1px solid #e5e5e5;
-    height: 1px;
-    width: 400px;
   }
 
   .form-sec {
@@ -1648,7 +1639,7 @@ strong {
     line-height: 44px;
     text-align: center;
     color: #172b4d;
-    padding-right: 184px;
+    padding-right: 34px;
   }
 
    #multi {
@@ -1665,7 +1656,7 @@ strong {
   }
 
   .modal {
-    width: 1150px;
+    width: 95vw;
     height: 80vh;
     padding: 0 19px;
   }
@@ -1734,7 +1725,7 @@ strong {
     background-size: 55% 100%;
     height: 340px;
     margin-top: 30px;
-    width: 990px;
+    width: 790px;
   }
 
   .modal-header22 {
@@ -1764,10 +1755,10 @@ strong {
     flex-direction: row;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    width: 475px;
+    width: 375px;
     font-size: 18px;
     line-height: 30px;
-    margin-left: 580px;
+    margin-left: 460px;
   }
 
   .modal-mobile {
@@ -1776,7 +1767,7 @@ strong {
 
   .modal-button {
     margin-left: 580px;
-    margin-top: -45px;
+    margin-top: -30px;
     border-radius: 30px;
   }
 
@@ -1793,9 +1784,9 @@ strong {
     transition-duration: 1ms;
   }
 
-  body {
+  /* body {
     width: 100%;
-  }
+  } */
 
   #nav-bar {
     display: none;
@@ -2043,66 +2034,69 @@ strong {
     display: none;
   }
 
-  .namemes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
+  .interested {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+    margin-right: 34px;
   }
 
-  .name-input2 {
-    width: 350px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    border: none;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 24px;
-    color: #979493;
-    margin-top: 64px;
-    padding: 0 24px;
-    background-color: #fbf8f7;
-  }
+.name-input2 {
+  width: 382px;
+  height: 40px;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 64px;
+  padding: 0 34px;
 
-  .email-input2 {
-    margin-top: 30px;
-    width: 350px;
-    height: 48px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 24px;
-    color: #979493;
-    border: none;
-    padding: 0 24px;
-    background-color: #fbf8f7;
-  }
+}
 
-  .msg-input2 {
-    margin-top: 35px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 24px;
-    color: #3c3a39;
-    width: 350px;
-    height: 114px;
-    border: none;
-    background-color: #fbf8f7;
-    padding: 0 24px;
-  }
+.email-input2 {
+  margin-top: 5px;
+  width: 382px;
+  height: 40px;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0 34px;
+}
+
+.msg-input2 {
+  margin-top: 5px;
+  line-height: 20px;
+  font-size: 17px;
+  width: 382px;
+  height: 94px;
+  padding: 0 34px;
+}
+
+.form-btn-div {
+  margin-top: 60px;
+}
+
+.form-btn2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  width: 131px;
+  height: 38px;
+  background: #ff6b00;
+  border: none;
+}
+
 
   .form-btn2 {
     --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
     --border-width: 0.125em;
     --curve-size: 0.5em;
     --blur: 30px;
-    color: #b5eded;
+    color: #fff;
 
     cursor: pointer;
     color: var(--color);
@@ -2124,19 +2118,6 @@ strong {
         0 100%);
     transition: color 250ms;
   }
-
-  .line3-1 {
-    border: 1px solid #e5e5e5;
-    height: 1px;
-    width: 350px;
-  }
-
-  .line3-2 {
-    border: 1px solid #e5e5e5;
-    height: 1px;
-    width: 350px;
-  }
-
  
 
   .medium:hover {
@@ -2157,8 +2138,37 @@ strong {
 
   .interested1 {
 
-    padding-right: 384px;
+    padding-right: 84px;
   }
+
+  .name-input2 {
+  width: 410px;
+  height: 40px;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 64px;
+  padding: 0 34px;
+
+}
+
+.email-input2 {
+  margin-top: 5px;
+  width: 410px;
+  height: 40px;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0 34px;
+}
+
+.msg-input2 {
+  margin-top: 5px;
+  line-height: 20px;
+  font-size: 17px;
+  width: 410px;
+  height: 94px;
+  padding: 0 34px;
+}
+
 
   .header-pro:nth-child(2) {
     height: 480px;
@@ -2267,6 +2277,8 @@ strong {
   font-weight: 500;
   font-size: 25px;
 }
+
+
 }
 
 
@@ -2546,7 +2558,7 @@ strong {
 }
 
   .interested {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 44px;
     font-weight: 700;
     margin-right: 224px;
@@ -2562,7 +2574,7 @@ strong {
 .name-input2 {
   width: 852px;
   height: 78px;
-  font-size: 35px;
+  font-size: 20px;
   line-height: 24px;
   margin-top: 64px;
   padding: 0 34px;
@@ -2570,18 +2582,18 @@ strong {
 }
 
 .email-input2 {
-  margin-top: 30px;
+  margin-top: 5px;
   width: 852px;
   height: 78px;
-  font-size: 35px;
+  font-size: 20px;
   line-height: 24px;
   padding: 0 34px;
 }
 
 .msg-input2 {
-  margin-top: 35px;
+  margin-top: 5px;
   line-height: 24px;
-  font-size: 35px;
+  font-size: 20px;
   width: 852px;
   height: 214px;
   padding: 0 34px;
@@ -2608,17 +2620,6 @@ strong {
   border: none;
 }
 
-.line3-1 {
-  border: 1px solid #e5e5e5;
-  height: 1px;
-  width: 452px;
-}
-
-.line3-2 {
-  border: 1px solid #e5e5e5;
-  height: 1px;
-  width: 452px;
-}
 
 .form-btn2 {
   height: 90px;
@@ -2633,8 +2634,8 @@ strong {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  width: 90vw;
-  height: 95vh;
+  width: 80vw;
+  height: 75vh;
   border: 1px solid #dfe2e6;
   animation: 1s drop;
   display: none;

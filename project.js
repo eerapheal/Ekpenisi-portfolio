@@ -132,7 +132,7 @@ for (let index = 0; index < projects.length; index += 1) {
 
     const modalContent = document.getElementById("modalviw");
     modalContent.style.backgroundImage = `linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(${project.featuredImage})`;
-
+    modalContent.style.backgroundSize = 'cover';
     modal.style.display = "block";
     // Close the modal when the user clicks on the close button
     const closeBtn = document.getElementsByClassName("close")[0];
