@@ -12,7 +12,6 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navItem.classList.remove('active');
 }));
 
-
 // Local storag
 const formName = document.getElementById('name1');
 const email = document.getElementById('text1');
