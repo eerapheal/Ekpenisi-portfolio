@@ -1,7 +1,7 @@
 ## Getting starting
 This repository includes files with plain HTML CSS AND JAVASCRIPt
 ## Project Name
-Ekpenisi Portfolio.
+Ngufor Emmanuella's Portfolio.
 
 ## Description of project.
 As I embarked on creating my portfolio website, I reached my initial milestone by employing a design template sourced from Figma. Through this website, I effectively exhibited my proficiencies in HTML, CSS, and JavaScript.
