@@ -31,10 +31,10 @@ async function displayProjects() {
   </div>
   <div onclick="appear()">
     <ul class="list-btn">
-      <li class="css-btn">HTML</li>
-      <li class="html-btn">CSS</li>
-      <li class="boot-btn">React</li>
-      <li class="ruby-btn">Redux</li>
+      <li class="css-btn boot-btns">HTML</li>
+      <li class="html-btn boot-btns">CSS</li>
+      <li class="boot-btn boot-btns">React</li>
+      <li class="ruby-btn boot-btns">Redux</li>
     </ul>
     <div class="projectBtn">
     <button type="button" class="btn-top" onclick="appear()" type="button"">
@@ -67,9 +67,15 @@ const modalInformation = {
     "This app offers an easy way to access the latest polluted country in Africa and search by counry name, making it a valuable resource for staying informed about africa.",
   imageSrc: "",
   button1:
+
     'See Live  <a href ="https://resonant-raindrop-6d1bf0.netlify.app/"><img src="./images/air-air" alt="polluion-ap"></a>',
   button2:
     'See Source <a href ="https://resonant-raindrop-6d1bf0.netlify.app/"><img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
+
+    '<a href ="https://zingy-cactus-5d6941.netlify.app/">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+  button2:
+    '<a href ="https://github.com/eerapheal/react-capstone">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
+
   li: "html",
   li2: "Bootstrap",
   li3: "Ruby on rails",
