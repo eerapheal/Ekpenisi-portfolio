@@ -17,8 +17,8 @@ const projects = [
     },
     {
       projectID: 3,
-      name: 'Health Conference web site',
-      description: 'This app built with HTML, CSS, JS for a conference site.',
+      name: 'Health Conference site',
+      description: 'This app a conference site that encourages healthy lifestyle amongst each individuals.built with HTML, CSS, JS',
       featuredImage: 'images/food-proj.png',
       technologies: ['html', 'CSS', 'JavaScripts'],
       url: 'https://peppy-pastelito-765b3e.netlify.app/',
@@ -42,7 +42,7 @@ const projects = [
     {
       projectID: 6,
       name: 'Space traveller hub',
-      description: 'a web app thats used to store different components of the app and also display rockets when put into use..',
+      description: 'A web app thats used to store different components of the app and also display rockets when put into use..',
       featuredImage: 'images/space-pic.png',
       technologies: ['html', 'CSS', 'JavaScript'],
       url: 'https://splendid-kulfi-220214.netlify.app/',
