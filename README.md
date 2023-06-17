@@ -19,6 +19,7 @@ Vscode.
 Clone this repo with:
 https://github.com/Ngufor-emmanuella/portfolio-proj/
 
+
 ```
 cd Ngufor-emmanuella
 ```
@@ -28,10 +29,11 @@ npm install
 ```
 ## Author1
 Ngufor-emmanuella
- 
+
 [GitHub](https://github.com/Ngufor-emmanuella/portfolio-proj/) 
 [Twitter](https://twitter.com/Ngufor-emmanuella) 
 [LinkedIn](https://www.linkedin.com/in/Ngufor-emmanuella/)
+
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
