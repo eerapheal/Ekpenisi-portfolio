@@ -22,17 +22,19 @@ async function displayProjects() {
     </h3>
   <div id="second-p">
     <p class="second-p">
+
     In this project, I used React-Redux and API to build SPA a website displaying all African countries that are polluted, and when the user clicks on 
     each country or searches for a country its displays the various cities. This app offers an easy way to access the latest polluted country in Africa and
      search by counry name, making it a valuable resource for staying informed about Africa.
+
     </p>
   </div>
   <div onclick="appear()">
     <ul class="list-btn">
-      <li class="css-btn">HTML</li>
-      <li class="html-btn">CSS</li>
-      <li class="boot-btn">React</li>
-      <li class="ruby-btn">Redux</li>
+      <li class="css-btn boot-btns">HTML</li>
+      <li class="html-btn boot-btns">CSS</li>
+      <li class="boot-btn boot-btns">React</li>
+      <li class="ruby-btn boot-btns">Redux</li>
     </ul>
     <div class="projectBtn">
     <button type="button" class="btn-top" onclick="appear()" type="button"">
@@ -60,14 +62,20 @@ const modalInformation = {
   heading1: "Multi Post Stories",
   title2: "stay updated on the latest Polluted statistics",
   description:
-  "In this project, I used React-Redux and API to build SPA a website displaying all African countries that are polluted, and when the user clicks on each country or searches for a country its displays the various cities",
+  "In this project, I used React-Redux and API to build SPA a website displaying all African countries that are polluted, and when the user clicks on each country or searches for a country its displays the various cities.",
   description2:
     "This app offers an easy way to access the latest polluted country in Africa and search by counry name, making it a valuable resource for staying informed about africa.",
   imageSrc: "",
   button1:
+
     'See Live  <a href ="https://resonant-raindrop-6d1bf0.netlify.app/"><img src="./images/air-air" alt="polluion-ap"></a>',
   button2:
     'See Source <a href ="https://resonant-raindrop-6d1bf0.netlify.app/"><img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
+
+    '<a href ="https://zingy-cactus-5d6941.netlify.app/">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
+  button2:
+    '<a href ="https://github.com/eerapheal/react-capstone">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
+
   li: "html",
   li2: "Bootstrap",
   li3: "Ruby on rails",
