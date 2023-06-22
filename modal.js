@@ -11,10 +11,10 @@ async function displayProjects() {
 </div>
 <div id="multi">
  <div>
-  <img class="img-desk" width="300" height="237" src="./images/Image20230429085301.png" alt="Budget-app">
+  <img class="img-desk" width="327" height="237" src="./images/air-air.png" alt="Budget-app">
   </div>
   <div>
-  <img class="img-desk2" src="./images/Image20230429085301.png" alt="Budget-app">
+  <img class="img-desk2" width="327" height="237" src="./images/air-air.png" alt="Budget-app">
   </div>
   <div class="post">
     <h3 class="second-subtittle">
@@ -22,7 +22,11 @@ async function displayProjects() {
     </h3>
   <div id="second-p">
     <p class="second-p">
-    This application provides users with a convenient and accessible way to stay updated on the latest Covid-19 statistical data for all continents in the world. It allows users to quickly and easily view important metrics such as confirmed cases, deaths, recoveries, and more, all from a single platform. Additionally, users can also search for data specific to a particular continent by entering its name into the search bar.
+
+    In this project, I used React-Redux and API to build SPA a website displaying all African countries that are polluted, and when the user clicks on 
+    each country or searches for a country its displays the various cities. This app offers an easy way to access the latest polluted country in Africa and
+     search by counry name, making it a valuable resource for staying informed about Africa.
+
     </p>
   </div>
   <div onclick="appear()">
@@ -55,20 +59,28 @@ async function displayProjects() {
 displayProjects();
 
 const modalInformation = {
-  heading1: 'Multi Post Stories',
-  title2: 'stay updated on the latest Covid-19 statistical',
+
+  heading1: "Multi Post Stories",
+  title2: "stay updated on the latest Polluted statistics",
   description:
-    'This application provides users with a convenient and accessible way to stay updated on the latest Covid-19 statistical data for all continents in the world. It allows users to quickly and easily view important metrics such as confirmed cases, deaths, recoveries, and more, all from a single platform. Additionally, users can also search for data specific to a particular continent by entering its name into the search bar.',
+  "In this project, I used React-Redux and API to build SPA a website displaying all African countries that are polluted, and when the user clicks on each country or searches for a country its displays the various cities.",
   description2:
-    'This app offers an easy way to access the latest Covid-19 stats for all continents and search by continent name, making it a valuable resource for staying informed during the ongoing pandemic.',
-  imageSrc: './images/firstprojectbig.png',
+    "This app offers an easy way to access the latest polluted country in Africa and search by counry name, making it a valuable resource for staying informed about africa.",
+  imageSrc: "",
+
   button1:
+
+    'See Live  <a href ="https://resonant-raindrop-6d1bf0.netlify.app/"><img src="./images/air-air" alt="polluion-ap"></a>',
+  button2:
+    'See Source <a href ="https://resonant-raindrop-6d1bf0.netlify.app/"><img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
+
     '<a href ="https://zingy-cactus-5d6941.netlify.app/">See Live<img src="./images/Iconlive.png" alt="Budget-ap"></a>',
   button2:
     '<a href ="https://github.com/eerapheal/react-capstone">See Source<img src="./images/Vectorhub.png"alt="Budget-ap"></a>',
-  li: 'html',
-  li2: 'Bootstrap',
-  li3: 'Ruby on rails',
+  li: "html",
+  li2: "Bootstrap",
+  li3: "Ruby on rails",
+
 };
 
 const div1 = document.createElement('div');
