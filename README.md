@@ -49,5 +49,5 @@ Give a ⭐️ if you like this project!
 My Team.
 
 License
-[MIT](https://github.com/eerapheal/Ngufor-emmanuella/main/LICENSE)
+[MIT](https://github.com/Ngufor-emmanuella/main/LICENSE)
 
